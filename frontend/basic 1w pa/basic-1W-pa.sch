@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Hermes-Lite Basic 1W Power Amplifier"
 Date "27 Nov 2014"
-Rev "1.2"
+Rev "1.3"
 Comp "SofterHardware"
 Comment1 "AC9HY"
 Comment2 ""
