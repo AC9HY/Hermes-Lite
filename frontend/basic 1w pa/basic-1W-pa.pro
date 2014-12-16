@@ -1,4 +1,4 @@
-update=12/6/2014 3:22:05 PM
+update=12/16/2014 4:49:56 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -74,4 +74,4 @@ SpiceUseNetNumbers=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=50
