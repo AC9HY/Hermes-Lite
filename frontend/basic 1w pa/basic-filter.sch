@@ -1,0 +1,1295 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:hermeslite
+LIBS:basic-filter-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Hermes-Lite Basic Filter 160m-6m"
+Date "Tuesday, December 09, 2014"
+Rev "1.0"
+Comp "SofterHardware"
+Comment1 "AC9HY"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L INDUCTOR L3
+U 1 1 547D4CF1
+P 6850 5000
+F 0 "L3" V 6800 5000 40  0000 C CNN
+F 1 "1.296uH" V 6950 5000 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6850 5000 60  0001 C CNN
+F 3 "" H 6850 5000 60  0000 C CNN
+	1    6850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 547D4CF8
+P 5350 4700
+F 0 "C5" V 5300 4800 40  0000 L CNN
+F 1 "550pF" V 5500 4600 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 4550 30  0001 C CNN
+F 3 "" H 5350 4700 60  0000 C CNN
+	1    5350 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 547D4CFE
+P 4850 4700
+F 0 "L1" V 4800 4700 40  0000 C CNN
+F 1 "3.364uH" V 4950 4700 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4850 4700 60  0001 C CNN
+F 3 "" H 4850 4700 60  0000 C CNN
+	1    4850 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C8
+U 1 1 547D4D04
+P 5550 4900
+F 0 "C8" H 5550 5000 40  0000 L CNN
+F 1 "2700pF" H 5300 4800 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 4750 30  0001 C CNN
+F 3 "" H 5550 4900 60  0000 C CNN
+	1    5550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L4
+U 1 1 547D4D0B
+P 5700 5000
+F 0 "L4" V 5650 5000 40  0000 C CNN
+F 1 "676nH" V 5800 5000 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5700 5000 60  0001 C CNN
+F 3 "" H 5700 5000 60  0000 C CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 547D4D11
+P 6500 4700
+F 0 "C6" V 6450 4800 40  0000 L CNN
+F 1 "270pF" V 6650 4600 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6538 4550 30  0001 C CNN
+F 3 "" H 6500 4700 60  0000 C CNN
+	1    6500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 547D4D17
+P 6000 4700
+F 0 "L2" V 5950 4700 40  0000 C CNN
+F 1 "7.396uH" V 6100 4700 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6000 4700 60  0001 C CNN
+F 3 "" H 6000 4700 60  0000 C CNN
+	1    6000 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C9
+U 1 1 547D4D1D
+P 6700 4900
+F 0 "C9" H 6700 5000 40  0000 L CNN
+F 1 "1500pF" H 6450 4800 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6738 4750 30  0001 C CNN
+F 3 "" H 6700 4900 60  0000 C CNN
+	1    6700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 547D5B29
+P 6850 5300
+F 0 "#PWR03" H 6850 5300 30  0001 C CNN
+F 1 "GND" H 6850 5230 30  0001 C CNN
+F 2 "" H 6850 5300 60  0000 C CNN
+F 3 "" H 6850 5300 60  0000 C CNN
+	1    6850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 547D5B36
+P 5550 5100
+F 0 "#PWR04" H 5550 5100 30  0001 C CNN
+F 1 "GND" H 5550 5030 30  0001 C CNN
+F 2 "" H 5550 5100 60  0000 C CNN
+F 3 "" H 5550 5100 60  0000 C CNN
+	1    5550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 547D5B4A
+P 5700 5300
+F 0 "#PWR05" H 5700 5300 30  0001 C CNN
+F 1 "GND" H 5700 5230 30  0001 C CNN
+F 2 "" H 5700 5300 60  0000 C CNN
+F 3 "" H 5700 5300 60  0000 C CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 547D5B5E
+P 6700 5100
+F 0 "#PWR06" H 6700 5100 30  0001 C CNN
+F 1 "GND" H 6700 5030 30  0001 C CNN
+F 2 "" H 6700 5100 60  0000 C CNN
+F 3 "" H 6700 5100 60  0000 C CNN
+	1    6700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L24
+U 1 1 548740CB
+P 6900 5750
+F 0 "L24" V 6850 5750 40  0000 C CNN
+F 1 "3.364uH" V 7000 5750 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6900 5750 60  0001 C CNN
+F 3 "" H 6900 5750 60  0000 C CNN
+	1    6900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 548740D1
+P 5400 5450
+F 0 "C17" V 5350 5550 40  0000 L CNN
+F 1 "1500pF" V 5550 5350 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5438 5300 30  0001 C CNN
+F 3 "" H 5400 5450 60  0000 C CNN
+	1    5400 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L9
+U 1 1 548740D7
+P 4900 5450
+F 0 "L9" V 4850 5450 40  0000 C CNN
+F 1 "5.184uH" V 5000 5450 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4900 5450 60  0001 C CNN
+F 3 "" H 4900 5450 60  0000 C CNN
+	1    4900 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C22
+U 1 1 548740DD
+P 5600 5650
+F 0 "C22" H 5600 5750 40  0000 L CNN
+F 1 "4700pF" H 5350 5550 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5638 5500 30  0001 C CNN
+F 3 "" H 5600 5650 60  0000 C CNN
+	1    5600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L14
+U 1 1 548740E3
+P 5750 5750
+F 0 "L14" V 5700 5750 40  0000 C CNN
+F 1 "1.6uH" V 5850 5750 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5750 5750 60  0001 C CNN
+F 3 "" H 5750 5750 60  0000 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 548740E9
+P 6550 5450
+F 0 "C27" V 6500 5550 40  0000 L CNN
+F 1 "690pF" V 6700 5350 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6588 5300 30  0001 C CNN
+F 3 "" H 6550 5450 60  0000 C CNN
+	1    6550 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L19
+U 1 1 548740EF
+P 6050 5450
+F 0 "L19" V 6000 5450 40  0000 C CNN
+F 1 "11.664uH" V 6150 5450 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6050 5450 60  0001 C CNN
+F 3 "" H 6050 5450 60  0000 C CNN
+	1    6050 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C32
+U 1 1 548740F5
+P 6750 5650
+F 0 "C32" H 6750 5750 40  0000 L CNN
+F 1 "2200pF" H 6500 5550 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6788 5500 30  0001 C CNN
+F 3 "" H 6750 5650 60  0000 C CNN
+	1    6750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 54874101
+P 6900 6050
+F 0 "#PWR09" H 6900 6050 30  0001 C CNN
+F 1 "GND" H 6900 5980 30  0001 C CNN
+F 2 "" H 6900 6050 60  0000 C CNN
+F 3 "" H 6900 6050 60  0000 C CNN
+	1    6900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 54874107
+P 5600 5850
+F 0 "#PWR010" H 5600 5850 30  0001 C CNN
+F 1 "GND" H 5600 5780 30  0001 C CNN
+F 2 "" H 5600 5850 60  0000 C CNN
+F 3 "" H 5600 5850 60  0000 C CNN
+	1    5600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5487410D
+P 5750 6050
+F 0 "#PWR011" H 5750 6050 30  0001 C CNN
+F 1 "GND" H 5750 5980 30  0001 C CNN
+F 2 "" H 5750 6050 60  0000 C CNN
+F 3 "" H 5750 6050 60  0000 C CNN
+	1    5750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 54874113
+P 6750 5850
+F 0 "#PWR012" H 6750 5850 30  0001 C CNN
+F 1 "GND" H 6750 5780 30  0001 C CNN
+F 2 "" H 6750 5850 60  0000 C CNN
+F 3 "" H 6750 5850 60  0000 C CNN
+	1    6750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L23
+U 1 1 54874A80
+P 6850 4050
+F 0 "L23" V 6800 4050 40  0000 C CNN
+F 1 "784nH" V 6950 4050 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6850 4050 60  0001 C CNN
+F 3 "" H 6850 4050 60  0000 C CNN
+	1    6850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 54874A86
+P 5350 3750
+F 0 "C16" V 5300 3850 40  0000 L CNN
+F 1 "100pF" V 5500 3650 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 3600 30  0001 C CNN
+F 3 "" H 5350 3750 60  0000 C CNN
+	1    5350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L8
+U 1 1 54874A8C
+P 4850 3750
+F 0 "L8" V 4800 3750 40  0000 C CNN
+F 1 "1.936uH" V 4950 3750 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4850 3750 60  0001 C CNN
+F 3 "" H 4850 3750 60  0000 C CNN
+	1    4850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C21
+U 1 1 54874A92
+P 5550 3950
+F 0 "C21" H 5550 4050 40  0000 L CNN
+F 1 "1600pF" H 5300 3850 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 3800 30  0001 C CNN
+F 3 "" H 5550 3950 60  0000 C CNN
+	1    5550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L13
+U 1 1 54874A98
+P 5700 4050
+F 0 "L13" V 5650 4050 40  0000 C CNN
+F 1 "400nH" V 5800 4050 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5700 4050 60  0001 C CNN
+F 3 "" H 5700 4050 60  0000 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 54874A9E
+P 6500 3750
+F 0 "C26" V 6450 3850 40  0000 L CNN
+F 1 "300pF" V 6650 3650 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6538 3600 30  0001 C CNN
+F 3 "" H 6500 3750 60  0000 C CNN
+	1    6500 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L18
+U 1 1 54874AA4
+P 6000 3750
+F 0 "L18" V 5950 3750 40  0000 C CNN
+F 1 "3.6uH" V 6100 3750 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6000 3750 60  0001 C CNN
+F 3 "" H 6000 3750 60  0000 C CNN
+	1    6000 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C31
+U 1 1 54874AAA
+P 6700 3950
+F 0 "C31" H 6700 4050 40  0000 L CNN
+F 1 "820pF" H 6500 3850 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6738 3800 30  0001 C CNN
+F 3 "" H 6700 3950 60  0000 C CNN
+	1    6700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 54874AB6
+P 6850 4350
+F 0 "#PWR014" H 6850 4350 30  0001 C CNN
+F 1 "GND" H 6850 4280 30  0001 C CNN
+F 2 "" H 6850 4350 60  0000 C CNN
+F 3 "" H 6850 4350 60  0000 C CNN
+	1    6850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 54874ABC
+P 5550 4150
+F 0 "#PWR015" H 5550 4150 30  0001 C CNN
+F 1 "GND" H 5550 4080 30  0001 C CNN
+F 2 "" H 5550 4150 60  0000 C CNN
+F 3 "" H 5550 4150 60  0000 C CNN
+	1    5550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 54874AC2
+P 5700 4350
+F 0 "#PWR016" H 5700 4350 30  0001 C CNN
+F 1 "GND" H 5700 4280 30  0001 C CNN
+F 2 "" H 5700 4350 60  0000 C CNN
+F 3 "" H 5700 4350 60  0000 C CNN
+	1    5700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 54874AC8
+P 6700 4150
+F 0 "#PWR017" H 6700 4150 30  0001 C CNN
+F 1 "GND" H 6700 4080 30  0001 C CNN
+F 2 "" H 6700 4150 60  0000 C CNN
+F 3 "" H 6700 4150 60  0000 C CNN
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L22
+U 1 1 548787B5
+P 6850 3100
+F 0 "L22" V 6800 3100 40  0000 C CNN
+F 1 "432nH" V 6950 3100 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6850 3100 60  0001 C CNN
+F 3 "" H 6850 3100 60  0000 C CNN
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 548787BB
+P 5350 2800
+F 0 "C15" V 5300 2900 40  0000 L CNN
+F 1 "150pF" V 5500 2700 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 2650 30  0001 C CNN
+F 3 "" H 5350 2800 60  0000 C CNN
+	1    5350 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L7
+U 1 1 548787C1
+P 4850 2800
+F 0 "L7" V 4800 2800 40  0000 C CNN
+F 1 "1.083uH" V 4950 2800 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4850 2800 60  0001 C CNN
+F 3 "" H 4850 2800 60  0000 C CNN
+	1    4850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C20
+U 1 1 548787C7
+P 5550 3000
+F 0 "C20" H 5550 3100 40  0000 L CNN
+F 1 "690pF" H 5350 2900 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 2850 30  0001 C CNN
+F 3 "" H 5550 3000 60  0000 C CNN
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L12
+U 1 1 548787CD
+P 5700 3100
+F 0 "L12" V 5650 3100 40  0000 C CNN
+F 1 "243nH" V 5800 3100 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5700 3100 60  0001 C CNN
+F 3 "" H 5700 3100 60  0000 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 548787D3
+P 6500 2800
+F 0 "C25" V 6450 2900 40  0000 L CNN
+F 1 "82pF" V 6650 2700 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6538 2650 30  0001 C CNN
+F 3 "" H 6500 2800 60  0000 C CNN
+	1    6500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L17
+U 1 1 548787D9
+P 6000 2800
+F 0 "L17" V 5950 2800 40  0000 C CNN
+F 1 "2.028uH" V 6100 2800 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6000 2800 60  0001 C CNN
+F 3 "" H 6000 2800 60  0000 C CNN
+	1    6000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C30
+U 1 1 548787DF
+P 6700 3000
+F 0 "C30" H 6700 3100 40  0000 L CNN
+F 1 "390pF" H 6500 2900 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6738 2850 30  0001 C CNN
+F 3 "" H 6700 3000 60  0000 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 548787EB
+P 6850 3400
+F 0 "#PWR019" H 6850 3400 30  0001 C CNN
+F 1 "GND" H 6850 3330 30  0001 C CNN
+F 2 "" H 6850 3400 60  0000 C CNN
+F 3 "" H 6850 3400 60  0000 C CNN
+	1    6850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 548787F1
+P 5550 3200
+F 0 "#PWR020" H 5550 3200 30  0001 C CNN
+F 1 "GND" H 5550 3130 30  0001 C CNN
+F 2 "" H 5550 3200 60  0000 C CNN
+F 3 "" H 5550 3200 60  0000 C CNN
+	1    5550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 548787F7
+P 5700 3400
+F 0 "#PWR021" H 5700 3400 30  0001 C CNN
+F 1 "GND" H 5700 3330 30  0001 C CNN
+F 2 "" H 5700 3400 60  0000 C CNN
+F 3 "" H 5700 3400 60  0000 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 548787FD
+P 6700 3200
+F 0 "#PWR022" H 6700 3200 30  0001 C CNN
+F 1 "GND" H 6700 3130 30  0001 C CNN
+F 2 "" H 6700 3200 60  0000 C CNN
+F 3 "" H 6700 3200 60  0000 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L21
+U 1 1 54878A31
+P 6850 2150
+F 0 "L21" V 6800 2150 40  0000 C CNN
+F 1 "243nH" V 6950 2150 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6850 2150 60  0001 C CNN
+F 3 "" H 6850 2150 60  0000 C CNN
+	1    6850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 54878A37
+P 5350 1850
+F 0 "C14" V 5300 1950 40  0000 L CNN
+F 1 "100pF" V 5500 1750 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 1700 30  0001 C CNN
+F 3 "" H 5350 1850 60  0000 C CNN
+	1    5350 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L6
+U 1 1 54878A3D
+P 4850 1850
+F 0 "L6" V 4800 1850 40  0000 C CNN
+F 1 "675nH" V 4950 1850 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4850 1850 60  0001 C CNN
+F 3 "" H 4850 1850 60  0000 C CNN
+	1    4850 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C19
+U 1 1 54878A43
+P 5550 2050
+F 0 "C19" H 5550 2150 40  0000 L CNN
+F 1 "630pF" H 5350 1950 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 1900 30  0001 C CNN
+F 3 "" H 5550 2050 60  0000 C CNN
+	1    5550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L11
+U 1 1 54878A49
+P 5700 2150
+F 0 "L11" V 5650 2150 40  0000 C CNN
+F 1 "108nH" V 5800 2150 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5700 2150 60  0001 C CNN
+F 3 "" H 5700 2150 60  0000 C CNN
+	1    5700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 54878A4F
+P 6500 1850
+F 0 "C24" V 6450 1950 40  0000 L CNN
+F 1 "47pF" V 6650 1750 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6538 1700 30  0001 C CNN
+F 3 "" H 6500 1850 60  0000 C CNN
+	1    6500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L16
+U 1 1 54878A55
+P 6000 1850
+F 0 "L16" V 5950 1850 40  0000 C CNN
+F 1 "1.452uH" V 6100 1850 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6000 1850 60  0001 C CNN
+F 3 "" H 6000 1850 60  0000 C CNN
+	1    6000 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C29
+U 1 1 54878A5B
+P 6700 2050
+F 0 "C29" H 6700 2150 40  0000 L CNN
+F 1 "270pF" H 6500 1950 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6738 1900 30  0001 C CNN
+F 3 "" H 6700 2050 60  0000 C CNN
+	1    6700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 54878A67
+P 6850 2450
+F 0 "#PWR024" H 6850 2450 30  0001 C CNN
+F 1 "GND" H 6850 2380 30  0001 C CNN
+F 2 "" H 6850 2450 60  0000 C CNN
+F 3 "" H 6850 2450 60  0000 C CNN
+	1    6850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 54878A6D
+P 5550 2250
+F 0 "#PWR025" H 5550 2250 30  0001 C CNN
+F 1 "GND" H 5550 2180 30  0001 C CNN
+F 2 "" H 5550 2250 60  0000 C CNN
+F 3 "" H 5550 2250 60  0000 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 54878A73
+P 5700 2450
+F 0 "#PWR026" H 5700 2450 30  0001 C CNN
+F 1 "GND" H 5700 2380 30  0001 C CNN
+F 2 "" H 5700 2450 60  0000 C CNN
+F 3 "" H 5700 2450 60  0000 C CNN
+	1    5700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 54878A79
+P 6700 2250
+F 0 "#PWR027" H 6700 2250 30  0001 C CNN
+F 1 "GND" H 6700 2180 30  0001 C CNN
+F 2 "" H 6700 2250 60  0000 C CNN
+F 3 "" H 6700 2250 60  0000 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L20
+U 1 1 54879DBF
+P 6850 1200
+F 0 "L20" V 6800 1200 40  0000 C CNN
+F 1 "192nH" V 6950 1200 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6850 1200 60  0001 C CNN
+F 3 "" H 6850 1200 60  0000 C CNN
+	1    6850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 54879DC5
+P 5350 900
+F 0 "C13" V 5300 1000 40  0000 L CNN
+F 1 "68pF" V 5500 800 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 750 30  0001 C CNN
+F 3 "" H 5350 900 60  0000 C CNN
+	1    5350 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L5
+U 1 1 54879DCB
+P 4850 900
+F 0 "L5" V 4800 900 40  0000 C CNN
+F 1 "507nH" V 4950 900 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 4850 900 60  0001 C CNN
+F 3 "" H 4850 900 60  0000 C CNN
+	1    4850 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C18
+U 1 1 54879DD1
+P 5550 1100
+F 0 "C18" H 5550 1200 40  0000 L CNN
+F 1 "472pF" H 5350 1000 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5588 950 30  0001 C CNN
+F 3 "" H 5550 1100 60  0000 C CNN
+	1    5550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L10
+U 1 1 54879DD7
+P 5700 1200
+F 0 "L10" V 5650 1200 40  0000 C CNN
+F 1 "75nH" V 5800 1200 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 5700 1200 60  0001 C CNN
+F 3 "" H 5700 1200 60  0000 C CNN
+	1    5700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 54879DDD
+P 6500 900
+F 0 "C23" V 6450 1000 40  0000 L CNN
+F 1 "33pF" V 6650 800 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6538 750 30  0001 C CNN
+F 3 "" H 6500 900 60  0000 C CNN
+	1    6500 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L15
+U 1 1 54879DE3
+P 6000 900
+F 0 "L15" V 5950 900 40  0000 C CNN
+F 1 "1.083uH" V 6100 900 40  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical" H 6000 900 60  0001 C CNN
+F 3 "" H 6000 900 60  0000 C CNN
+	1    6000 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C28
+U 1 1 54879DE9
+P 6700 1100
+F 0 "C28" H 6700 1200 40  0000 L CNN
+F 1 "182pF" H 6500 1000 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6738 950 30  0001 C CNN
+F 3 "" H 6700 1100 60  0000 C CNN
+	1    6700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 54879DF5
+P 6850 1500
+F 0 "#PWR029" H 6850 1500 30  0001 C CNN
+F 1 "GND" H 6850 1430 30  0001 C CNN
+F 2 "" H 6850 1500 60  0000 C CNN
+F 3 "" H 6850 1500 60  0000 C CNN
+	1    6850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 54879DFB
+P 5550 1300
+F 0 "#PWR030" H 5550 1300 30  0001 C CNN
+F 1 "GND" H 5550 1230 30  0001 C CNN
+F 2 "" H 5550 1300 60  0000 C CNN
+F 3 "" H 5550 1300 60  0000 C CNN
+	1    5550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 54879E01
+P 5700 1500
+F 0 "#PWR031" H 5700 1500 30  0001 C CNN
+F 1 "GND" H 5700 1430 30  0001 C CNN
+F 2 "" H 5700 1500 60  0000 C CNN
+F 3 "" H 5700 1500 60  0000 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 54879E07
+P 6700 1300
+F 0 "#PWR032" H 6700 1300 30  0001 C CNN
+F 1 "GND" H 6700 1230 30  0001 C CNN
+F 2 "" H 6700 1300 60  0000 C CNN
+F 3 "" H 6700 1300 60  0000 C CNN
+	1    6700 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 5750 0    60   ~ 0
+160M\n
+Text Notes 6050 5000 0    60   ~ 0
+80/75M
+Text Notes 6050 4050 0    60   ~ 0
+60/40M
+Text Notes 6050 3100 0    60   ~ 0
+30/20M
+Text Notes 6050 2150 0    60   ~ 0
+17/15M
+Text Notes 6050 1200 0    60   ~ 0
+10/12M
+Wire Wire Line
+	5550 4700 5700 4700
+Wire Wire Line
+	6700 4700 7300 4700
+Wire Wire Line
+	8700 2000 8700 2200
+Wire Wire Line
+	9500 1450 9500 1600
+Wire Wire Line
+	9500 1450 9200 1450
+Wire Wire Line
+	9200 1450 9200 1000
+Wire Wire Line
+	9500 2000 9600 2000
+Wire Wire Line
+	9600 2000 9600 1400
+Wire Wire Line
+	9600 1400 10150 1400
+Wire Wire Line
+	10150 1400 10150 1200
+Connection ~ 6850 4700
+Connection ~ 4550 4700
+Connection ~ 5150 4700
+Connection ~ 5550 4700
+Connection ~ 5700 4700
+Connection ~ 6300 4700
+Connection ~ 6700 4700
+Connection ~ 4050 5000
+Connection ~ 4050 4800
+Connection ~ 4050 4700
+Connection ~ 4050 4500
+Connection ~ 8700 2000
+Connection ~ 8700 1600
+Connection ~ 9500 2000
+Connection ~ 9500 1600
+Connection ~ 9200 1000
+Connection ~ 9600 1000
+Connection ~ 9600 1400
+Connection ~ 10000 1000
+Connection ~ 10150 1400
+Connection ~ 10150 1200
+Connection ~ 5550 5100
+Connection ~ 5700 5300
+Connection ~ 6700 5100
+Connection ~ 6850 5300
+Wire Wire Line
+	4050 4700 4550 4700
+Wire Wire Line
+	7300 5000 7100 5000
+Wire Wire Line
+	7100 5000 7100 4700
+Connection ~ 7100 4700
+Wire Wire Line
+	4050 5000 4250 5000
+Wire Wire Line
+	4250 5000 4250 4700
+Connection ~ 4250 4700
+Wire Wire Line
+	5600 5450 5750 5450
+Connection ~ 6900 5450
+Connection ~ 4600 5450
+Connection ~ 5200 5450
+Connection ~ 5600 5450
+Connection ~ 5750 5450
+Connection ~ 6350 5450
+Connection ~ 6750 5450
+Connection ~ 5600 5850
+Connection ~ 5750 6050
+Connection ~ 6750 5850
+Connection ~ 6900 6050
+Wire Wire Line
+	4050 4500 4350 4500
+Wire Wire Line
+	4350 5450 4600 5450
+Wire Wire Line
+	4050 4800 4350 4800
+Connection ~ 4350 4800
+Wire Wire Line
+	7300 4500 7000 4500
+Connection ~ 7000 5450
+Wire Wire Line
+	7000 5450 6750 5450
+Wire Wire Line
+	7300 4800 7000 4800
+Wire Wire Line
+	5550 3750 5700 3750
+Wire Wire Line
+	6700 3750 7300 3750
+Connection ~ 6850 3750
+Connection ~ 4550 3750
+Connection ~ 5150 3750
+Connection ~ 5550 3750
+Connection ~ 5700 3750
+Connection ~ 6300 3750
+Connection ~ 6700 3750
+Connection ~ 4050 4050
+Connection ~ 4050 3850
+Connection ~ 4050 3750
+Connection ~ 4050 3550
+Connection ~ 5550 4150
+Connection ~ 5700 4350
+Connection ~ 6700 4150
+Connection ~ 6850 4350
+Wire Wire Line
+	4050 3750 4550 3750
+Wire Wire Line
+	7300 4050 7100 4050
+Wire Wire Line
+	7100 4050 7100 3750
+Connection ~ 7100 3750
+Wire Wire Line
+	4050 4050 4250 4050
+Wire Wire Line
+	4250 4050 4250 3750
+Connection ~ 4250 3750
+Wire Wire Line
+	4050 3550 4350 3550
+Wire Wire Line
+	4350 3850 4050 3850
+Connection ~ 4350 3850
+Wire Wire Line
+	7300 3550 7000 3550
+Wire Wire Line
+	7300 3850 7000 3850
+Connection ~ 7000 3850
+Wire Wire Line
+	4350 4500 4350 5450
+Wire Wire Line
+	7000 4500 7000 5450
+Connection ~ 7000 4800
+Connection ~ 4350 3550
+Wire Wire Line
+	4350 3550 4350 4400
+Wire Wire Line
+	4350 4400 3250 4400
+Wire Wire Line
+	3250 4400 3250 4900
+Connection ~ 3250 4600
+Wire Wire Line
+	7000 3550 7000 4350
+Wire Wire Line
+	7000 4350 8100 4350
+Wire Wire Line
+	8100 4350 8100 4900
+Connection ~ 8100 4600
+Wire Wire Line
+	5550 2800 5700 2800
+Wire Wire Line
+	6700 2800 7300 2800
+Connection ~ 6850 2800
+Connection ~ 4550 2800
+Connection ~ 5150 2800
+Connection ~ 5550 2800
+Connection ~ 5700 2800
+Connection ~ 6300 2800
+Connection ~ 6700 2800
+Connection ~ 4050 3100
+Connection ~ 4050 2900
+Connection ~ 4050 2800
+Connection ~ 4050 2600
+Connection ~ 5550 3200
+Connection ~ 5700 3400
+Connection ~ 6700 3200
+Connection ~ 6850 3400
+Wire Wire Line
+	4050 2800 4550 2800
+Wire Wire Line
+	7300 3100 7100 3100
+Wire Wire Line
+	7100 3100 7100 2800
+Connection ~ 7100 2800
+Wire Wire Line
+	4050 3100 4250 3100
+Wire Wire Line
+	4250 3100 4250 2800
+Connection ~ 4250 2800
+Wire Wire Line
+	4050 2600 4350 2600
+Wire Wire Line
+	4350 2900 4050 2900
+Connection ~ 4350 2900
+Wire Wire Line
+	7300 2600 7000 2600
+Wire Wire Line
+	7300 2900 7000 2900
+Connection ~ 7000 2900
+Connection ~ 4350 2600
+Wire Wire Line
+	4350 2600 4350 3450
+Wire Wire Line
+	4350 3450 3250 3450
+Wire Wire Line
+	3250 3450 3250 3950
+Wire Wire Line
+	7000 2600 7000 3400
+Wire Wire Line
+	7000 3400 8100 3400
+Wire Wire Line
+	8100 3400 8100 3950
+Wire Wire Line
+	5550 1850 5700 1850
+Wire Wire Line
+	6700 1850 7300 1850
+Connection ~ 6850 1850
+Connection ~ 4550 1850
+Connection ~ 5150 1850
+Connection ~ 5550 1850
+Connection ~ 5700 1850
+Connection ~ 6300 1850
+Connection ~ 6700 1850
+Connection ~ 4050 2150
+Connection ~ 4050 1950
+Connection ~ 4050 1850
+Connection ~ 4050 1650
+Connection ~ 5550 2250
+Connection ~ 5700 2450
+Connection ~ 6700 2250
+Connection ~ 6850 2450
+Wire Wire Line
+	4050 1850 4550 1850
+Wire Wire Line
+	7300 2150 7100 2150
+Wire Wire Line
+	7100 2150 7100 1850
+Connection ~ 7100 1850
+Wire Wire Line
+	4050 2150 4250 2150
+Wire Wire Line
+	4250 2150 4250 1850
+Connection ~ 4250 1850
+Wire Wire Line
+	4050 1650 4350 1650
+Wire Wire Line
+	4350 1950 4050 1950
+Connection ~ 4350 1950
+Wire Wire Line
+	7300 1650 7000 1650
+Wire Wire Line
+	7300 1950 7000 1950
+Connection ~ 7000 1950
+Connection ~ 4350 1650
+Wire Wire Line
+	4350 1650 4350 2500
+Wire Wire Line
+	4350 2500 3250 2500
+Wire Wire Line
+	3250 2500 3250 3000
+Wire Wire Line
+	7000 1650 7000 2450
+Wire Wire Line
+	7000 2450 8100 2450
+Wire Wire Line
+	8100 2450 8100 3000
+Wire Wire Line
+	5550 900  5700 900 
+Wire Wire Line
+	6700 900  7300 900 
+Connection ~ 6850 900 
+Connection ~ 4550 900 
+Connection ~ 5150 900 
+Connection ~ 5550 900 
+Connection ~ 5700 900 
+Connection ~ 6300 900 
+Connection ~ 6700 900 
+Connection ~ 4050 1200
+Connection ~ 4050 1000
+Connection ~ 4050 900 
+Connection ~ 4050 700 
+Connection ~ 5550 1300
+Connection ~ 5700 1500
+Connection ~ 6700 1300
+Connection ~ 6850 1500
+Wire Wire Line
+	4050 900  4550 900 
+Wire Wire Line
+	7300 1200 7100 1200
+Wire Wire Line
+	7100 1200 7100 900 
+Connection ~ 7100 900 
+Wire Wire Line
+	4050 1200 4250 1200
+Wire Wire Line
+	4250 1200 4250 900 
+Connection ~ 4250 900 
+Wire Wire Line
+	4050 700  4350 700 
+Wire Wire Line
+	4350 1000 4050 1000
+Connection ~ 4350 1000
+Wire Wire Line
+	7300 700  7000 700 
+Wire Wire Line
+	7300 1000 7000 1000
+Connection ~ 7000 1000
+Connection ~ 4350 700 
+Wire Wire Line
+	4350 700  4350 1550
+Wire Wire Line
+	4350 1550 3250 1550
+Wire Wire Line
+	3250 1550 3250 2050
+Wire Wire Line
+	7000 700  7000 1500
+Wire Wire Line
+	7000 1500 8100 1500
+Wire Wire Line
+	8100 1500 8100 2050
+Connection ~ 3250 1750
+Connection ~ 3250 2050
+Connection ~ 3250 2700
+Connection ~ 3250 3000
+Connection ~ 3250 3450
+Connection ~ 3250 3650
+Connection ~ 3250 3950
+Connection ~ 3250 4900
+Connection ~ 8100 4900
+Connection ~ 7300 5000
+Connection ~ 7300 4800
+Connection ~ 7300 4700
+Connection ~ 7300 4500
+Connection ~ 7300 4050
+Connection ~ 7300 3850
+Connection ~ 7300 3750
+Connection ~ 7300 3550
+Connection ~ 8100 3650
+Connection ~ 8100 3950
+Connection ~ 8100 3000
+Connection ~ 8100 2700
+Connection ~ 8100 2050
+Connection ~ 8100 1750
+Connection ~ 7300 1200
+Connection ~ 7300 1000
+Connection ~ 7300 900 
+Connection ~ 7300 700 
+Connection ~ 7300 1650
+Connection ~ 7300 1850
+Connection ~ 7300 1950
+Connection ~ 7300 2150
+Wire Wire Line
+	8100 800  8100 1100
+Wire Wire Line
+	3250 1400 3100 1400
+Wire Wire Line
+	3100 1400 3100 6200
+Wire Wire Line
+	3100 6200 8300 6200
+Wire Wire Line
+	8300 6200 8300 1400
+Wire Wire Line
+	8300 1400 8100 1400
+Wire Wire Line
+	8100 2350 8300 2350
+Connection ~ 8300 2350
+Wire Wire Line
+	8100 3300 8300 3300
+Connection ~ 8300 3300
+Wire Wire Line
+	8100 4250 8300 4250
+Connection ~ 8300 4250
+Wire Wire Line
+	8100 5200 8300 5200
+Connection ~ 8300 5200
+Wire Wire Line
+	3250 5200 3100 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	3250 4250 3100 4250
+Connection ~ 3100 4250
+Wire Wire Line
+	3250 3300 3100 3300
+Connection ~ 3100 3300
+Wire Wire Line
+	3250 2350 3100 2350
+Connection ~ 3100 2350
+Wire Wire Line
+	3250 1300 3000 1300
+Wire Wire Line
+	3000 1300 3000 6300
+Wire Wire Line
+	3000 6300 8400 6300
+Wire Wire Line
+	8400 6300 8400 1300
+Wire Wire Line
+	8400 1300 8100 1300
+Wire Wire Line
+	3250 2250 2900 2250
+Wire Wire Line
+	2900 2250 2900 6400
+Wire Wire Line
+	2900 6400 8500 6400
+Wire Wire Line
+	8500 6400 8500 2250
+Wire Wire Line
+	8500 2250 8100 2250
+Wire Wire Line
+	3250 3200 2800 3200
+Wire Wire Line
+	2800 2900 2800 6500
+Wire Wire Line
+	2800 6500 8600 6500
+Wire Wire Line
+	8600 6500 8600 3200
+Wire Wire Line
+	8600 3200 8100 3200
+Wire Wire Line
+	8100 4150 8700 4150
+Wire Wire Line
+	2700 6600 8700 6600
+Wire Wire Line
+	2700 3000 2700 6600
+Wire Wire Line
+	2700 4150 3250 4150
+Wire Wire Line
+	3250 5100 2600 5100
+Wire Wire Line
+	2600 3100 2600 6700
+Wire Wire Line
+	2600 6700 8800 6700
+Wire Wire Line
+	8800 6700 8800 5100
+Wire Wire Line
+	8800 5100 8100 5100
+Wire Wire Line
+	8100 1100 8700 1100
+Wire Wire Line
+	8700 1100 8700 1600
+Wire Wire Line
+	2750 1100 3250 1100
+Wire Wire Line
+	3250 1100 3250 800 
+Wire Wire Line
+	2600 3100 2150 3100
+Connection ~ 2600 5100
+Wire Wire Line
+	2700 3000 2150 3000
+Connection ~ 2700 4150
+Wire Wire Line
+	2800 2900 2150 2900
+Connection ~ 2800 3200
+Text Notes 1150 7300 0    60   ~ 0
+This filter board uses BPF filters that are functional for both TX and RX. Thus\nthere is not a general receive capability. The switching is based on the Alex TX\nvalues for both TX and RX. The filters can be partially or fully implemented.
+Wire Wire Line
+	8700 6600 8700 4150
+$EndSCHEMATC
