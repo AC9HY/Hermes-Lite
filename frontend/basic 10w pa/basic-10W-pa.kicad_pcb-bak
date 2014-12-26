@@ -3114,12 +3114,12 @@
     )
   )
 
-  (module Socket_Strips:Socket_Strip_Straight_2x02 (layer F.Cu) (tedit 548B308E) (tstamp 54907170)
+  (module Socket_Strips:Socket_Strip_Straight_2x02 (layer F.Cu) (tedit 5491FFF6) (tstamp 54907170)
     (at 77 116 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /547CE3F3)
-    (fp_text reference T1 (at 0 -3.81 270) (layer F.SilkS)
+    (fp_text reference T1 (at -4.6 -0.2 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TRANSFO (at 0 0 270) (layer F.SilkS) hide
