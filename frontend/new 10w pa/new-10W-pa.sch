@@ -36,9 +36,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
-Title "Hermes-Lite Basic 10W Power Amplifier with Filters"
-Date "Thursday, January 01, 2015"
-Rev "1.11"
+Title "Hermes-Lite Basic 5W Power Amplifier with Filters"
+Date "Friday, January 02, 2015"
+Rev "1.12"
 Comp "SofterHardware"
 Comment1 "AC9HY"
 Comment2 ""
@@ -1048,17 +1048,6 @@ Wire Wire Line
 	7750 4250 8050 4250
 Connection ~ 8050 3850
 Connection ~ 5650 4200
-$Comp
-L R R9
-U 1 1 54A5A54D
-P 7200 4450
-F 0 "R9" V 7280 4450 40  0000 C CNN
-F 1 "Microstrip" V 7207 4451 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7130 4450 30  0001 C CNN
-F 3 "" H 7200 4450 30  0000 C CNN
-	1    7200 4450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8050 4250 8050 4600
 Wire Wire Line
@@ -1151,4 +1140,16 @@ Wire Wire Line
 	8950 3850 8850 3850
 Wire Wire Line
 	8850 4250 9100 4250
+Text Notes 9350 4050 0    50   ~ 0
+T37-6 8T #26
+Wire Wire Line
+	6950 4450 6950 5000
+Wire Wire Line
+	6950 5000 7150 5000
+Wire Wire Line
+	7150 5000 7150 4450
+Wire Wire Line
+	7150 4450 7450 4450
+Text Notes 6550 5100 0    50   ~ 0
+Microstrip\nW=15Mil, L=1800Mil
 $EndSCHEMATC

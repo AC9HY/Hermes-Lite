@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 1/1/2015 8:05:50 AM
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 1/2/2015 8:38:50 AM
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -395,7 +395,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54A2AF6A;
 Reference = C57;
-ValeurCmp = 300pF;
+ValeurCmp = 150pF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -472,7 +472,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54A2AF76;
 Reference = C68;
-ValeurCmp = 300pF;
+ValeurCmp = 150pF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -536,6 +536,20 @@ BeginCmp
 TimeStamp = /549F2C74/54A0064A;
 Reference = C77;
 ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54A84C0B;
+Reference = C78;
+ValeurCmp = 150pF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54A85789;
+Reference = C79;
+ValeurCmp = 150pF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
@@ -1002,10 +1016,17 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54A72F88;
+TimeStamp = /5496A059/54A7B5EB;
 Reference = P8;
-ValeurCmp = CONN_01X07;
+ValeurCmp = CONN_01X08;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54A8ABB5;
+Reference = P9;
+ValeurCmp = CONN_02X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
 EndCmp
 
 BeginCmp
@@ -1082,13 +1103,6 @@ BeginCmp
 TimeStamp = /5495B703;
 Reference = R8;
 ValeurCmp = 220;
-IdModule  = Resistors_SMD:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54A5A54D;
-Reference = R9;
-ValeurCmp = Microstrip;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 

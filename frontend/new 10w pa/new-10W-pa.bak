@@ -36,9 +36,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
-Title "Hermes-Lite Basic 10W Power Amplifier with Filters"
-Date "Thursday, January 01, 2015"
-Rev "1.11"
+Title "Hermes-Lite Basic 5W Power Amplifier with Filters"
+Date "Friday, January 02, 2015"
+Rev "1.12"
 Comp "SofterHardware"
 Comment1 "AC9HY"
 Comment2 ""
