@@ -210,7 +210,7 @@ F 3 "" H 2550 4350 30  0000 C CNN
 $EndComp
 Connection ~ 2100 4350
 Wire Wire Line
-	2800 4350 2850 4350
+	2800 4350 3200 4350
 Wire Wire Line
 	1550 3950 2150 3950
 Connection ~ 2000 3950
@@ -1602,8 +1602,6 @@ F 3 "" H 2450 5150 60  0000 C CNN
 	1    2450 6350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2900 4350 3200 4350
 Wire Wire Line
 	3200 4350 3200 4450
 Wire Wire Line
