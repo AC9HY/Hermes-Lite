@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 05/01/2015 08:35:21
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 08/01/2015 10:32:15
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /54872CD7;
 Reference = C2;
 ValeurCmp = 47uF 16V;
-IdModule  = Discret:C1V8;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow;
 EndCmp
 
 BeginCmp
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /54A1ABD4;
 Reference = C10;
 ValeurCmp = 10uF 16V;
-IdModule  = Discret:C1V8;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow;
 EndCmp
 
 BeginCmp
@@ -108,7 +108,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5496A059/54A1CC37;
 Reference = C16;
-ValeurCmp = 300pF;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -269,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5496A059/54A1CC19;
 Reference = C39;
-ValeurCmp = 300pF;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -554,31 +554,17 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54A262A1;
-Reference = D2;
-ValeurCmp = RED;
-IdModule  = LEDs:LED-1206;
+TimeStamp = /5496A059/54ABE597;
+Reference = C80;
+ValeurCmp = 150pF;
+IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54A25CCB;
-Reference = D3;
-ValeurCmp = YEL;
-IdModule  = LEDs:LED-1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A2315F;
-Reference = D4;
-ValeurCmp = RED;
-IdModule  = LEDs:LED-1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A2314E;
-Reference = D5;
-ValeurCmp = YEL;
-IdModule  = LEDs:LED-1206;
+TimeStamp = /5496A059/54ABE696;
+Reference = C81;
+ValeurCmp = 150pF;
+IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
@@ -1068,34 +1054,6 @@ BeginCmp
 TimeStamp = /5495ED31;
 Reference = R10;
 ValeurCmp = 270;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54A25D67;
-Reference = R11;
-ValeurCmp = 1k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54A26441;
-Reference = R12;
-ValeurCmp = 1k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A23155;
-Reference = R13;
-ValeurCmp = 1k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A23168;
-Reference = R14;
-ValeurCmp = 1k;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
