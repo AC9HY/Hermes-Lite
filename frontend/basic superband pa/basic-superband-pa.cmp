@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 08/01/2015 08:26:59
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 10/01/2015 13:24:17
 
 BeginCmp
 TimeStamp = /548163A6;
@@ -150,8 +150,8 @@ EndCmp
 BeginCmp
 TimeStamp = /54AEFE24;
 Reference = C22;
-ValeurCmp = 47uF 16V;
-IdModule  = Discret:C1V8;
+ValeurCmp = 10uF 16V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow;
 EndCmp
 
 BeginCmp
@@ -319,7 +319,14 @@ BeginCmp
 TimeStamp = /54AE9D92;
 Reference = Q3;
 ValeurCmp = RD16HHF1;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1783B;
+Reference = Q4;
+ValeurCmp = NPN;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
@@ -367,7 +374,35 @@ EndCmp
 BeginCmp
 TimeStamp = /54AE8962;
 Reference = R8;
-ValeurCmp = 2.21k;
+ValeurCmp = 10k;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B17835;
+Reference = R9;
+ValeurCmp = 4.99k;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1B29F;
+Reference = R10;
+ValeurCmp = DNI;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1AF90;
+Reference = R11;
+ValeurCmp = 0;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1B0A6;
+Reference = R12;
+ValeurCmp = DNI;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
