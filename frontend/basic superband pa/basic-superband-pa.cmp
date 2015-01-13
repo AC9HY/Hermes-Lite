@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 10/01/2015 13:24:17
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 12/01/2015 12:18:14
 
 BeginCmp
 TimeStamp = /548163A6;
@@ -169,17 +169,38 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B3E46F;
+Reference = C25;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B3F199;
+Reference = C26;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B3F378;
+Reference = C27;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B3D855;
+Reference = C28;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54430BA6;
 Reference = CN1;
 ValeurCmp = EDGE;
 IdModule  = HERMESLITE:EDGE;
-EndCmp
-
-BeginCmp
-TimeStamp = /54755307;
-Reference = CN2;
-ValeurCmp = BREAKOUT;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
 EndCmp
 
 BeginCmp
@@ -270,7 +291,7 @@ BeginCmp
 TimeStamp = /54AEF860;
 Reference = L10;
 ValeurCmp = FT37-43 11T #26;
-IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM10mm;
+IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_horizontal_Diameter3-5mm_Amidon-T12;
 EndCmp
 
 BeginCmp
@@ -295,13 +316,6 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
-TimeStamp = /54823DDE;
-Reference = P3;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
 TimeStamp = /54AF68F4;
 Reference = Q1;
 ValeurCmp = NPN;
@@ -320,13 +334,6 @@ TimeStamp = /54AE9D92;
 Reference = Q3;
 ValeurCmp = RD16HHF1;
 IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B1783B;
-Reference = Q4;
-ValeurCmp = NPN;
-IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
@@ -375,13 +382,6 @@ BeginCmp
 TimeStamp = /54AE8962;
 Reference = R8;
 ValeurCmp = 10k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B17835;
-Reference = R9;
-ValeurCmp = 4.99k;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
