@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 12/01/2015 12:18:14
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 14/01/2015 11:04:52
 
 BeginCmp
 TimeStamp = /548163A6;
@@ -22,14 +22,14 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4CF8;
+TimeStamp = /54872F5F;
 Reference = C4;
-ValeurCmp = C;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4D04;
+TimeStamp = /547D4CF8;
 Reference = C5;
 ValeurCmp = C;
 IdModule  = HERMESLITE:C_0805;
@@ -43,21 +43,21 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4D1D;
+TimeStamp = /54872CD7;
 Reference = C7;
-ValeurCmp = C;
-IdModule  = HERMESLITE:C_0805;
+ValeurCmp = 47uF 16V;
+IdModule  = Discret:C1V8;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D43ED;
+TimeStamp = /547D4D04;
 Reference = C8;
 ValeurCmp = C;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D44ED;
+TimeStamp = /547D4D1D;
 Reference = C9;
 ValeurCmp = C;
 IdModule  = HERMESLITE:C_0805;
@@ -71,7 +71,7 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4975;
+TimeStamp = /547D43ED;
 Reference = C11;
 ValeurCmp = C;
 IdModule  = HERMESLITE:C_0805;
@@ -85,17 +85,17 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54872F5F;
+TimeStamp = /547D44ED;
 Reference = C13;
-ValeurCmp = 0.1uF;
+ValeurCmp = C;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54872CD7;
+TimeStamp = /547D4975;
 Reference = C14;
-ValeurCmp = 47uF 16V;
-IdModule  = Discret:C1V8;
+ValeurCmp = C;
+IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /54AEFE24;
 Reference = C22;
 ValeurCmp = 10uF 16V;
-IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -197,6 +197,13 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B52D87;
+Reference = C29;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54430BA6;
 Reference = CN1;
 ValeurCmp = EDGE;
@@ -232,28 +239,28 @@ IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4D0B;
+TimeStamp = /547D4D17;
 Reference = L2;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4D17;
+TimeStamp = /547D4CF1;
 Reference = L3;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4CF1;
+TimeStamp = /547D4D0B;
 Reference = L4;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D41C7;
+TimeStamp = /547D490A;
 Reference = L5;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
@@ -267,14 +274,14 @@ IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D4686;
+TimeStamp = /547D41C7;
 Reference = L7;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /547D490A;
+TimeStamp = /547D4686;
 Reference = L8;
 ValeurCmp = INDUCTOR;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
