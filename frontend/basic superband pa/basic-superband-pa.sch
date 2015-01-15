@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Hermes-Lite Basic Superband 5W Power Amplifier"
-Date "09 January 2015"
+Date "15 January 2015"
 Rev "1.0"
 Comp "SofterHardware"
 Comment1 "AC9HY"
