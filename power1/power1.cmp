@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 17/01/2015 06:24:14
+
+BeginCmp
+TimeStamp = /54B93F83;
+Reference = C1;
+ValeurCmp = 10uF 25V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9629C;
+Reference = C2;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B810EE;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9A6C4;
+Reference = C4;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82D65;
+Reference = C5;
+ValeurCmp = 10uF 25V;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B99ECF;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B998A5;
+Reference = C7;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B93678;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B81626;
+Reference = C9;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9B7F1;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B96649;
+Reference = C11;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9B71F;
+Reference = C12;
+ValeurCmp = 10uF 25V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B93B09;
+Reference = L1;
+ValeurCmp = BLM21PG121SN1D;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B99E3D;
+Reference = L2;
+ValeurCmp = 1.5 uH;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B96302;
+Reference = L3;
+ValeurCmp = 1 uH;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9B682;
+Reference = L4;
+ValeurCmp = BLM21PG121SN1D;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BA4EF4;
+Reference = L5;
+ValeurCmp = BLM21PG220SN1D;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B93508;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B82B66;
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9A39F;
+Reference = R1;
+ValeurCmp = 73.2k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B9A323;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B98C61;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B98EE2;
+Reference = R4;
+ValeurCmp = 45.3k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B984F2;
+Reference = U1;
+ValeurCmp = LT3633;
+IdModule  = SMD_Packages:TSSOP-28;
+EndCmp
+
+EndListe
