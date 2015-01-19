@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 08/01/2015 10:32:15
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 18/01/2015 06:06:09
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -564,6 +564,13 @@ BeginCmp
 TimeStamp = /5496A059/54ABE696;
 Reference = C81;
 ValeurCmp = 150pF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54BBBF4C;
+Reference = C82;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 

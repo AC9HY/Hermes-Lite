@@ -954,7 +954,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1800 3400 1700
 Wire Wire Line
-	3400 1700 4700 1700
+	2500 1700 4700 1700
 Wire Wire Line
 	4700 1000 4700 3400
 Connection ~ 4700 1000
@@ -1104,4 +1104,31 @@ $EndComp
 Connection ~ 8050 4250
 Connection ~ 8850 4250
 Connection ~ 8850 3850
+Wire Wire Line
+	3400 2000 3400 2050
+Wire Wire Line
+	2500 2050 4900 2050
+Wire Wire Line
+	4900 2050 4900 2150
+$Comp
+L GND #PWR023
+U 1 1 54BBCE74
+P 4900 2150
+F 0 "#PWR023" H 4900 2150 30  0001 C CNN
+F 1 "GND" H 4900 2080 30  0001 C CNN
+F 2 "" H 4900 2150 60  0000 C CNN
+F 3 "" H 4900 2150 60  0000 C CNN
+	1    4900 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 2150
+Wire Wire Line
+	2500 2000 2500 2050
+Connection ~ 3400 2050
+Wire Wire Line
+	2500 1800 2500 1700
+Connection ~ 3400 1700
+Connection ~ 6000 2100
+Connection ~ 5700 2100
+Connection ~ 4400 800 
 $EndSCHEMATC
