@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 14/01/2015 11:04:52
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 19/01/2015 06:53:03
 
 BeginCmp
 TimeStamp = /548163A6;
@@ -218,6 +218,13 @@ IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /54BD04F7;
+Reference = JP1;
+ValeurCmp = JUMPER4;
+IdModule  = HERMESLITE:JUMPER4;
+EndCmp
+
+BeginCmp
 TimeStamp = /54AF37A9;
 Reference = K1;
 ValeurCmp = D3002;
@@ -410,6 +417,13 @@ BeginCmp
 TimeStamp = /54B1B0A6;
 Reference = R12;
 ValeurCmp = DNI;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BD0931;
+Reference = R13;
+ValeurCmp = 4.99k;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 

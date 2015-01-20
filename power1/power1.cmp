@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 17/01/2015 06:24:14
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 19/01/2015 07:18:53
 
 BeginCmp
 TimeStamp = /54B93F83;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /54B82D65;
 Reference = C5;
 ValeurCmp = 10uF 25V;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -82,6 +82,20 @@ TimeStamp = /54B9B71F;
 Reference = C12;
 ValeurCmp = 10uF 25V;
 IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BD08E0;
+Reference = C13;
+ValeurCmp = DNI;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BD0736;
+Reference = C14;
+ValeurCmp = DNI;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
