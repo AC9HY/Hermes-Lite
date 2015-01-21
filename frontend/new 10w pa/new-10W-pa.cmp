@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 18/01/2015 06:06:09
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 21/01/2015 10:49:36
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -575,6 +575,55 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5496A059/54C04678;
+Reference = C83;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C05011;
+Reference = C84;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C050BD;
+Reference = C85;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C05A8B;
+Reference = C86;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C060E7;
+Reference = C87;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C0658B;
+Reference = C88;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BFC578;
+Reference = CN1;
+ValeurCmp = BREAKOUT;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
+EndCmp
+
+BeginCmp
 TimeStamp = /549F2C74/54A26D3F;
 Reference = D6;
 ValeurCmp = DIODE;
@@ -682,6 +731,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5496A059/5496A475;
 Reference = K6;
+ValeurCmp = D3002;
+IdModule  = HERMESLITE:D3002;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54BFE652;
+Reference = K7;
 ValeurCmp = D3002;
 IdModule  = HERMESLITE:D3002;
 EndCmp
@@ -967,13 +1023,6 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A044E0;
-Reference = P3;
-ValeurCmp = From HL CN3;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
-EndCmp
-
-BeginCmp
 TimeStamp = /54A54B0E;
 Reference = P4;
 ValeurCmp = CONN_01X02;
@@ -988,37 +1037,16 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A0D647;
-Reference = P6;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
-EndCmp
-
-BeginCmp
-TimeStamp = /54A30ACB;
-Reference = P7;
-ValeurCmp = From FE CN2;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54A7B5EB;
-Reference = P8;
-ValeurCmp = CONN_01X08;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A8ABB5;
-Reference = P9;
-ValeurCmp = CONN_02X05;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
-EndCmp
-
-BeginCmp
 TimeStamp = /54960683;
 Reference = Q1;
 ValeurCmp = 2N3906;
+IdModule  = Transistors_SMD:sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C1FC1A;
+Reference = Q2;
+ValeurCmp = 2N3904;
 IdModule  = Transistors_SMD:sot23;
 EndCmp
 
@@ -1030,9 +1058,100 @@ IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
 EndCmp
 
 BeginCmp
+TimeStamp = /5496A059/54C02AC3;
+Reference = Q4;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C02A54;
+Reference = Q5;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C029E8;
+Reference = Q6;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C0292A;
+Reference = Q7;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C028BE;
+Reference = Q8;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54C01EF2;
+Reference = Q9;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0B7C8;
+Reference = Q10;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0C4C4;
+Reference = Q11;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0C550;
+Reference = Q12;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0C865;
+Reference = Q13;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0C8F3;
+Reference = Q14;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
 TimeStamp = /5496144F;
 Reference = R1;
 ValeurCmp = 1k;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C1FCFB;
+Reference = R2;
+ValeurCmp = 4.99k;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C201FE;
+Reference = R3;
+ValeurCmp = 4.99k;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
@@ -1128,45 +1247,17 @@ IdModule  = HERMESLITE:OUT_TRANSF;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A31A7F;
+TimeStamp = /5496A059/54C23BC2;
 Reference = U1;
-ValeurCmp = 74HC14;
-IdModule  = SMD_Packages:TSSOP-14;
+ValeurCmp = 4028;
+IdModule  = SMD_Packages:TSSOP-16;
 EndCmp
 
 BeginCmp
-TimeStamp = /54A319E2;
+TimeStamp = /549F2C74/54C0BB0A;
 Reference = U2;
-ValeurCmp = 74HC14;
-IdModule  = SMD_Packages:TSSOP-14;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54A1D7A6;
-Reference = U3;
-ValeurCmp = TPIC6B595;
-IdModule  = Housings_SOIC:SOIC-20_7.5x12.8mm_Pitch1.27mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54A1C180;
-Reference = U4;
-ValeurCmp = TPIC6B595;
-IdModule  = Housings_SOIC:SOIC-20_7.5x12.8mm_Pitch1.27mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A23127;
-Reference = U5;
-ValeurCmp = TPIC6B595;
-IdModule  = Housings_SOIC:SOIC-20_7.5x12.8mm_Pitch1.27mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54A23120;
-Reference = U6;
-ValeurCmp = TPIC6B595;
-IdModule  = Housings_SOIC:SOIC-20_7.5x12.8mm_Pitch1.27mm;
+ValeurCmp = 4028;
+IdModule  = SMD_Packages:TSSOP-16;
 EndCmp
 
 BeginCmp
