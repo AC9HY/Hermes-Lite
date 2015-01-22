@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 21/01/2015 10:49:36
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 22/01/2015 07:03:29
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -575,52 +575,10 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54C04678;
-Reference = C83;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C05011;
-Reference = C84;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C050BD;
-Reference = C85;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C05A8B;
-Reference = C86;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C060E7;
-Reference = C87;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C0658B;
-Reference = C88;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /54BFC578;
 Reference = CN1;
 ValeurCmp = BREAKOUT;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
+IdModule  = HERMESLITE:BREAKOUT;
 EndCmp
 
 BeginCmp
@@ -1058,83 +1016,6 @@ IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54C02AC3;
-Reference = Q4;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C02A54;
-Reference = Q5;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C029E8;
-Reference = Q6;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C0292A;
-Reference = Q7;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C028BE;
-Reference = Q8;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5496A059/54C01EF2;
-Reference = Q9;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0B7C8;
-Reference = Q10;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0C4C4;
-Reference = Q11;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0C550;
-Reference = Q12;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0C865;
-Reference = Q13;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0C8F3;
-Reference = Q14;
-ValeurCmp = 2N7000;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
 TimeStamp = /5496144F;
 Reference = R1;
 ValeurCmp = 1k;
@@ -1254,9 +1135,23 @@ IdModule  = SMD_Packages:TSSOP-16;
 EndCmp
 
 BeginCmp
-TimeStamp = /549F2C74/54C0BB0A;
+TimeStamp = /5496A059/54C07364;
 Reference = U2;
+ValeurCmp = ULN2003LV;
+IdModule  = SMD_Packages:TSSOP-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0BB0A;
+Reference = U3;
 ValeurCmp = 4028;
+IdModule  = SMD_Packages:TSSOP-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C0CCEA;
+Reference = U4;
+ValeurCmp = ULN2003LV;
 IdModule  = SMD_Packages:TSSOP-16;
 EndCmp
 
