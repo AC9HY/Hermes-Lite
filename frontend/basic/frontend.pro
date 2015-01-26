@@ -1,4 +1,4 @@
-update=Wed 19 Nov 2014 10:02:45 PM PST
+update=23/01/2015 17:15:49
 version=1
 last_client=kicad
 [cvpcb]
@@ -72,3 +72,16 @@ LibName30=valves
 LibName31=hermeslite
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

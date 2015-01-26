@@ -820,7 +820,7 @@ Wire Wire Line
 	1600 800  850  800 
 Wire Wire Line
 	850  1000 3350 1000
-Text GLabel 850  1150 0    50   Input ~ 0
+Text GLabel 950  4700 0    50   Input ~ 0
 5V
 $Comp
 L C C19
@@ -1146,78 +1146,17 @@ Wire Wire Line
 	5400 5800 5400 5500
 Wire Wire Line
 	5400 5500 5300 5500
-Text GLabel 800  2500 0    50   Input ~ 0
+Text GLabel 1100 4100 0    50   Input ~ 0
 A
-Text GLabel 800  2400 0    50   Input ~ 0
+Text GLabel 1100 4000 0    50   Input ~ 0
 B
-Text GLabel 800  2300 0    50   Input ~ 0
+Text GLabel 1100 3900 0    50   Input ~ 0
 C
-Text GLabel 800  2200 0    50   Input ~ 0
-#PTT
-Wire Wire Line
-	800  2500 1000 2500
-Wire Wire Line
-	800  2400 1000 2400
-Wire Wire Line
-	800  2300 1000 2300
-NoConn ~ 2200 1900
 Wire Wire Line
 	4100 6100 4500 6100
 Connection ~ 4100 5100
-NoConn ~ 2200 2800
-NoConn ~ 2200 2000
-NoConn ~ 2200 2100
-Wire Wire Line
-	1600 1150 1600 1800
-Wire Wire Line
-	850  1150 1600 1150
-Wire Wire Line
-	1600 2900 1600 3100
-$Comp
-L GND #PWR043
-U 1 1 54C07323
-P 1600 3100
-F 0 "#PWR043" H 1600 3100 30  0001 C CNN
-F 1 "GND" H 1600 3030 30  0001 C CNN
-F 2 "" H 1600 3100 60  0000 C CNN
-F 3 "" H 1600 3100 60  0000 C CNN
-	1    1600 3100
-	1    0    0    -1  
-$EndComp
-Text Notes 1600 4500 0    50   ~ 0
-Filter Settings for PowerSDR Hermes Ctrl\n(set for TX J16 Pins only)\n        1  2  3  4-7=Don't care\n160M   1  0  0\n80M    0  1  0\n60M    1  1  0\n40M    1  1  0\n30M    0  0  1\n20M    0  0  1\n17M    1  0  1\n15M    1  0  1\n12M    0  1  1\n10M    0  1  1
-Text Notes 1150 7350 0    50   ~ 0
-Note: There is a TX bypass present that is connected when no \nrelays are active. At this point, there is no bypass avail on RX. One could \nuse this bypass to deactivate TX LPFs if desired if there are sufficient LPFs \nin any attached external amps. You would place a value of 1 1 1 0 in the J16 \nTX assignment for all band positions.
-Text Notes 1750 1450 0    50   ~ 0
-#PTT is used to enable/disable TX. \nWhen #PTT is low, valid outputs\nexist on S1 thru S6. Otherwise the \nfilters are bypassed.
-Connection ~ 1000 2200
-Connection ~ 1000 2300
-Connection ~ 1000 2400
-Connection ~ 1000 2500
-$Comp
-L 4028 U1
-U 1 1 54C23BC2
-P 1600 2350
-F 0 "U1" H 1600 2350 60  0000 C CNN
-F 1 "4028" H 1550 2050 60  0000 C CNN
-F 2 "SMD_Packages:TSSOP-16" H 1600 2350 50  0001 C CNN
-F 3 "" H 1600 2350 50  0000 C CNN
-	1    1600 2350
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	800  2200 1000 2200
-$Comp
-L ULN2003A U2
-U 1 1 54C07364
-P 3000 2300
-F 0 "U2" H 3000 2400 70  0000 C CNN
-F 1 "ULN2003LV" H 3000 1700 70  0000 C CNN
-F 2 "SMD_Packages:TSSOP-16" H 3000 2300 60  0001 C CNN
-F 3 "" H 3000 2300 60  0000 C CNN
-	1    3000 2300
-	1    0    0    1   
-$EndComp
+Text Notes 1500 6300 0    50   ~ 0
+Filter Settings for PowerSDR Hermes Ctrl\n(set for RX and TX J16 Pins)\n        1  2  3  4 \nBypass 0  1  0  1 (or higher) \n160M   0  0  0  0\n80M    1  0  0  0\n60M    0  1  0  0\n40M    1  1  0  0\n30M    0  0  1  0\n20M    1  0  1  0\n17M    0  1  1  0\n15M    1  1  1  0\n12M    0  0  0  1\n10M    1  0  0  1
 Wire Wire Line
 	3700 6200 4500 6200
 Wire Wire Line
@@ -1225,62 +1164,95 @@ Wire Wire Line
 Wire Wire Line
 	3900 4250 4500 4250
 Wire Wire Line
-	4500 3300 4000 3300
+	3900 3300 4500 3300
 Wire Wire Line
-	3650 2700 3700 2700
+	3800 2350 4500 2350
 Wire Wire Line
-	3650 2600 3800 2600
-Wire Wire Line
-	3650 2500 3900 2500
-Wire Wire Line
-	3650 2400 4000 2400
-Wire Wire Line
-	4000 2400 4000 3300
-Wire Wire Line
-	3900 2500 3900 4250
-Wire Wire Line
-	3800 2600 3800 5200
-Wire Wire Line
-	3700 2700 3700 6200
-Wire Wire Line
-	3650 2300 4050 2300
-Wire Wire Line
-	4050 2300 4050 2350
-Wire Wire Line
-	4050 2350 4500 2350
-Wire Wire Line
-	3650 2200 4000 2200
-Wire Wire Line
-	4000 2200 4000 1400
-Wire Wire Line
-	4000 1400 4500 1400
-Wire Wire Line
-	2200 2700 2350 2700
-Wire Wire Line
-	2200 2600 2350 2600
-Wire Wire Line
-	2200 2500 2350 2500
-Wire Wire Line
-	2200 2400 2350 2400
-Wire Wire Line
-	2200 2300 2350 2300
-Wire Wire Line
-	2200 2200 2350 2200
-NoConn ~ 3650 2100
-NoConn ~ 2350 2100
+	3700 1400 4500 1400
 $Comp
-L GND #PWR044
-U 1 1 54C0FFD5
-P 3800 2000
-F 0 "#PWR044" H 3800 2000 30  0001 C CNN
-F 1 "GND" H 3800 1930 30  0001 C CNN
-F 2 "" H 3800 2000 60  0000 C CNN
-F 3 "" H 3800 2000 60  0000 C CNN
-	1    3800 2000
+L 74LS145 U2
+U 1 1 54C14768
+P 2000 3950
+F 0 "U2" H 2000 3950 60  0000 C CNN
+F 1 "74LS145" H 1950 3650 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 2000 3950 60  0001 C CNN
+F 3 "" H 2000 3950 60  0000 C CNN
+	1    2000 3950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4250 3900 4100
+Wire Wire Line
+	3900 4100 2600 4100
+Wire Wire Line
+	3900 3300 3900 4000
+Wire Wire Line
+	3900 4000 2600 4000
+Wire Wire Line
+	1100 4100 1400 4100
+Wire Wire Line
+	1100 4000 1400 4000
+Wire Wire Line
+	1100 3900 1400 3900
+Wire Wire Line
+	1800 4500 1800 4700
+$Comp
+L GND #PWR043
+U 1 1 54C17C04
+P 1500 3300
+F 0 "#PWR043" H 1500 3300 30  0001 C CNN
+F 1 "GND" H 1500 3230 30  0001 C CNN
+F 2 "" H 1500 3300 60  0000 C CNN
+F 3 "" H 1500 3300 60  0000 C CNN
+	1    1500 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 1900 3800 1900
+	1800 4700 950  4700
 Wire Wire Line
-	3800 1900 3800 2000
+	1800 3400 1800 3200
+Wire Wire Line
+	1800 3200 1500 3200
+Wire Wire Line
+	1500 3200 1500 3300
+Wire Wire Line
+	3700 6200 3700 4400
+Wire Wire Line
+	3700 4400 2600 4400
+Wire Wire Line
+	2600 4300 3800 4300
+Wire Wire Line
+	3800 4300 3800 5200
+Wire Wire Line
+	2600 4200 2700 4200
+Wire Wire Line
+	2700 4200 2700 4100
+Connection ~ 2700 4100
+Wire Wire Line
+	2700 3900 2700 4000
+Wire Wire Line
+	2700 3900 2600 3900
+Connection ~ 2700 4000
+Wire Wire Line
+	2600 3700 3800 3700
+Wire Wire Line
+	3800 3700 3800 2350
+Wire Wire Line
+	2600 3800 2700 3800
+Wire Wire Line
+	2700 3800 2700 3700
+Connection ~ 2700 3700
+Wire Wire Line
+	2600 3600 2700 3600
+Wire Wire Line
+	2700 3600 2700 3500
+Wire Wire Line
+	2600 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 1400
+Connection ~ 2700 3500
+Text GLabel 1100 3800 0    50   Input ~ 0
+D
+Wire Wire Line
+	1100 3800 1400 3800
 $EndSCHEMATC

@@ -249,7 +249,7 @@ F 3 "" H 2800 5850 60  0000 C CNN
 	1    2800 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 5650 0    60   Input ~ 0
+Text GLabel 1150 5650 0    60   Input ~ 0
 GPIO0
 Text GLabel 3900 1350 2    60   Output ~ 0
 GPIO0
@@ -545,7 +545,7 @@ Text Notes 1100 7500 2    60   ~ 0
 Ground\nOption
 Text Notes 1400 7350 0    50   ~ 0
 BN-61-2402\n  2x4T #30
-Text Notes 1050 5350 0    60   ~ 0
+Text Notes 1500 4550 0    60   ~ 0
 PTT# - RX=high, TX=low\nGPIO0 = BS0=low, BS1=high
 Text Notes 3600 6750 0    60   ~ 0
 (Band Specific Values)
@@ -1488,8 +1488,6 @@ F 3 "" H 6550 3400 60  0000 C CNN
 $EndComp
 Connection ~ 6550 3000
 Wire Wire Line
-	1800 5650 1900 5650
-Wire Wire Line
 	2400 5650 2500 5650
 Wire Wire Line
 	2300 7350 2300 6400
@@ -1523,7 +1521,6 @@ F 3 "" H 2400 6050 60  0000 C CNN
 $EndComp
 Connection ~ 2400 5650
 Connection ~ 2500 5650
-Connection ~ 1900 5650
 $Comp
 L C C26
 U 1 1 54B3F199
@@ -1621,4 +1618,48 @@ Wire Wire Line
 	4450 5800 10200 5800
 Wire Wire Line
 	10200 5800 10200 5400
+$Comp
+L JUMPER4 JP1
+U 1 1 54BD04F7
+P 1650 5650
+F 0 "JP1" V 1750 5750 40  0000 L CNN
+F 1 "JUMPER4" V 1500 5450 40  0000 C CNN
+F 2 "HERMESLITE:JUMPER4" H 1650 5650 60  0001 C CNN
+F 3 "" H 1650 5650 60  0000 C CNN
+	1    1650 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 54BD0629
+P 1650 5900
+F 0 "#PWR035" H 1650 5900 30  0001 C CNN
+F 1 "GND" H 1650 5830 30  0001 C CNN
+F 2 "" H 1650 5900 60  0000 C CNN
+F 3 "" H 1650 5900 60  0000 C CNN
+	1    1650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5650 1900 5650
+Wire Wire Line
+	1150 5650 1400 5650
+$Comp
+L R R13
+U 1 1 54BD0931
+P 1900 5400
+F 0 "R13" V 1980 5400 40  0000 C CNN
+F 1 "4.99k" V 1907 5401 40  0000 C CNN
+F 2 "HERMESLITE:R_0805" V 1830 5400 30  0001 C CNN
+F 3 "" H 1900 5400 30  0000 C CNN
+	1    1900 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 5400
+Wire Wire Line
+	2200 5400 2150 5400
+Connection ~ 1300 5250
 $EndSCHEMATC

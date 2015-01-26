@@ -30,8 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:hermeslite
-LIBS:frontend-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -213,8 +212,6 @@ Wire Wire Line
 Connection ~ 6600 4650
 Wire Wire Line
 	6600 4650 6600 4700
-Wire Wire Line
-	6100 2800 7100 2800
 Wire Wire Line
 	6100 3200 7250 3200
 Wire Wire Line
@@ -511,5 +508,48 @@ F 2 "" H 2000 4300 60  0000 C CNN
 F 3 "" H 2000 4300 60  0000 C CNN
 	1    2000 4300
 	-1   0    0    1   
+$EndComp
+$Comp
+L TRANSFO-SO8 T?
+U 1 1 54C2D322
+P 8700 2100
+F 0 "T?" H 8700 2350 70  0000 C CNN
+F 1 "TRANSFO-SO8" H 8700 1800 70  0000 C CNN
+F 2 "" H 8700 2100 60  0000 C CNN
+F 3 "" H 8700 2100 60  0000 C CNN
+	1    8700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 54C2D366
+P 9850 1900
+F 0 "P?" H 9860 2020 60  0000 C CNN
+F 1 "BNC" H 9950 1800 40  0000 C CNN
+F 2 "" H 9850 1900 60  0000 C CNN
+F 3 "" H 9850 1900 60  0000 C CNN
+	1    9850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1900 9700 1900
+Wire Wire Line
+	9000 2300 9850 2300
+Wire Wire Line
+	9850 2300 9850 2100
+Wire Wire Line
+	8400 2300 8200 2300
+Wire Wire Line
+	8200 2300 8200 2500
+$Comp
+L GND #PWR?
+U 1 1 54C2D577
+P 8200 2500
+F 0 "#PWR?" H 8200 2500 30  0001 C CNN
+F 1 "GND" H 8200 2430 30  0001 C CNN
+F 2 "" H 8200 2500 60  0000 C CNN
+F 3 "" H 8200 2500 60  0000 C CNN
+	1    8200 2500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

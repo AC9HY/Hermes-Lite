@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 22/01/2015 07:03:29
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 25/01/2015 06:37:02
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -575,10 +575,66 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /549F2C74/54C31E13;
+Reference = C83;
+ValeurCmp = 1000pF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C324F0;
+Reference = C84;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C325EB;
+Reference = C85;
+ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54BFC578;
 Reference = CN1;
 ValeurCmp = BREAKOUT;
 IdModule  = HERMESLITE:BREAKOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C3D76C;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C3D684;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C3D7DF;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C3D853;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C3D8CC;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
 BeginCmp
@@ -647,6 +703,20 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54A2AFA6;
 Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C31D88;
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C31E9F;
+Reference = D17;
 ValeurCmp = DIODE;
 IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
@@ -967,6 +1037,20 @@ IdModule  = HERMESLITE:Choke_SMD_1206_Standard;
 EndCmp
 
 BeginCmp
+TimeStamp = /549F2C74/54C31F91;
+Reference = L39;
+ValeurCmp = 4700nH;
+IdModule  = HERMESLITE:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C32431;
+Reference = L40;
+ValeurCmp = 4700uH;
+IdModule  = HERMESLITE:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
 TimeStamp = /549207C5;
 Reference = P1;
 ValeurCmp = CONN_01X02;
@@ -995,17 +1079,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54960683;
+TimeStamp = /54C18950;
 Reference = Q1;
-ValeurCmp = 2N3906;
-IdModule  = Transistors_SMD:sot23;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C1FC1A;
-Reference = Q2;
-ValeurCmp = 2N3904;
-IdModule  = Transistors_SMD:sot23;
+ValeurCmp = 2N7000;
+IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 
 BeginCmp
@@ -1016,24 +1093,10 @@ IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496144F;
-Reference = R1;
-ValeurCmp = 1k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C1FCFB;
-Reference = R2;
-ValeurCmp = 4.99k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C201FE;
-Reference = R3;
-ValeurCmp = 4.99k;
-IdModule  = HERMESLITE:R_0805;
+TimeStamp = /549F2C74/54C3D497;
+Reference = Q4;
+ValeurCmp = LDV301;
+IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 
 BeginCmp
@@ -1051,16 +1114,23 @@ IdModule  = HERMESLITE:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54970AE7;
-Reference = R7;
-ValeurCmp = 10k;
+TimeStamp = /5495ED31;
+Reference = R10;
+ValeurCmp = 270;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5495ED31;
-Reference = R10;
-ValeurCmp = 270;
+TimeStamp = /549F2C74/54C3F629;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C332B1;
+Reference = R14;
+ValeurCmp = 1k;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
@@ -1128,31 +1198,24 @@ IdModule  = HERMESLITE:OUT_TRANSF;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54C23BC2;
+TimeStamp = /54C1DCCB;
 Reference = U1;
-ValeurCmp = 4028;
-IdModule  = SMD_Packages:TSSOP-16;
+ValeurCmp = 4050;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5496A059/54C07364;
+TimeStamp = /5496A059/54C14768;
 Reference = U2;
-ValeurCmp = ULN2003LV;
-IdModule  = SMD_Packages:TSSOP-16;
+ValeurCmp = 74LS145;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /549F2C74/54C0BB0A;
+TimeStamp = /549F2C74/54C19B82;
 Reference = U3;
-ValeurCmp = 4028;
-IdModule  = SMD_Packages:TSSOP-16;
-EndCmp
-
-BeginCmp
-TimeStamp = /549F2C74/54C0CCEA;
-Reference = U4;
-ValeurCmp = ULN2003LV;
-IdModule  = SMD_Packages:TSSOP-16;
+ValeurCmp = 74LS145;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp

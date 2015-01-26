@@ -82,8 +82,6 @@ Text Notes 1250 7950 2    60   ~ 0
 Ground\nOption
 Text Notes 1400 7350 0    50   ~ 0
 BN-61-2402\n  2x4T #30
-Text Notes 2200 2250 0    60   ~ 0
-(PTT#, RX=high, TX=low)
 $Comp
 L CONN_02X01 P2
 U 1 1 5483D52A
@@ -306,19 +304,6 @@ F 3 "" H 8250 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PNP Q1
-U 1 1 54960683
-P 2600 5400
-F 0 "Q1" H 2600 5250 60  0000 R CNN
-F 1 "2N3906" H 2600 5550 60  0000 R CNN
-F 2 "Transistors_SMD:sot23" H 2600 5400 60  0001 C CNN
-F 3 "" H 2600 5400 60  0000 C CNN
-	1    2600 5400
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2700 4200 2700 5200
-$Comp
 L C C5
 U 1 1 54960B2B
 P 5700 2300
@@ -363,18 +348,7 @@ F 3 "" H 5700 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 5600 2700 6400
-$Comp
-L R R1
-U 1 1 5496144F
-P 2150 5400
-F 0 "R1" V 2230 5400 40  0000 C CNN
-F 1 "1k" V 2157 5401 40  0000 C CNN
-F 2 "HERMESLITE:R_0805" V 2080 5400 30  0001 C CNN
-F 3 "" H 2150 5400 30  0000 C CNN
-	1    2150 5400
-	0    1    1    0   
-$EndComp
+	2700 4200 2700 7100
 $Comp
 L D3002 K1
 U 1 1 54962C02
@@ -389,16 +363,16 @@ $EndComp
 Wire Wire Line
 	3500 6500 3300 6500
 Wire Wire Line
-	3300 6500 3300 6700
+	3300 6500 3300 6900
 $Comp
 L GND #PWR011
 U 1 1 54968BFC
-P 3300 6700
-F 0 "#PWR011" H 3300 6700 30  0001 C CNN
-F 1 "GND" H 3300 6630 30  0001 C CNN
-F 2 "" H 3300 6700 60  0000 C CNN
-F 3 "" H 3300 6700 60  0000 C CNN
-	1    3300 6700
+P 3300 7450
+F 0 "#PWR011" H 3300 7450 30  0001 C CNN
+F 1 "GND" H 3300 7380 30  0001 C CNN
+F 2 "" H 3300 7450 60  0000 C CNN
+F 3 "" H 3300 7450 60  0000 C CNN
+	1    3300 7450
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -407,19 +381,6 @@ U 5496A059
 F0 "TX-Filter" 50
 F1 "TX-filter.sch" 50
 $EndSheet
-Wire Wire Line
-	2700 6400 3500 6400
-$Comp
-L R R7
-U 1 1 54970AE7
-P 7500 1750
-F 0 "R7" V 7580 1750 40  0000 C CNN
-F 1 "10k" V 7507 1751 40  0000 C CNN
-F 2 "HERMESLITE:R_0805" V 7430 1750 30  0001 C CNN
-F 3 "" H 7500 1750 30  0000 C CNN
-	1    7500 1750
-	-1   0    0    1   
-$EndComp
 $Comp
 L GND #PWR012
 U 1 1 54972C38
@@ -487,65 +448,61 @@ U 549F2C74
 F0 "RX-Filter" 50
 F1 "RX-Filter.sch" 50
 $EndSheet
-Text GLabel 2700 1100 2    50   Output Italic 0
+Text GLabel 2400 1100 2    50   Output Italic 0
 5V
-Text Notes 1100 2850 0    60   Italic 0
+Text Notes 1150 3250 0    60   Italic 0
 (TX)\n(GND)
 $Comp
 L CONN_01X02 P5
 U 1 1 54A07990
-P 1500 3350
-F 0 "P5" H 1500 3500 50  0000 C CNN
-F 1 "CONN_01X02" V 1600 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1500 3350 60  0001 C CNN
-F 3 "" H 1500 3350 60  0000 C CNN
-	1    1500 3350
+P 1550 3750
+F 0 "P5" H 1550 3900 50  0000 C CNN
+F 1 "CONN_01X02" V 1650 3750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1550 3750 60  0001 C CNN
+F 3 "" H 1550 3750 60  0000 C CNN
+	1    1550 3750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 2700 4150 2700
+	1750 3200 2050 3200
 Wire Wire Line
-	4150 2700 4150 4050
-Wire Wire Line
-	1700 2800 2000 2800
-Wire Wire Line
-	2000 2800 2000 2950
+	2050 3200 2050 3350
 $Comp
 L GND #PWR014
 U 1 1 54A07D10
-P 2000 2950
-F 0 "#PWR014" H 2000 2950 30  0001 C CNN
-F 1 "GND" H 2000 2880 30  0001 C CNN
-F 2 "" H 2000 2950 60  0000 C CNN
-F 3 "" H 2000 2950 60  0000 C CNN
-	1    2000 2950
+P 2050 3350
+F 0 "#PWR014" H 2050 3350 30  0001 C CNN
+F 1 "GND" H 2050 3280 30  0001 C CNN
+F 2 "" H 2050 3350 60  0000 C CNN
+F 3 "" H 2050 3350 60  0000 C CNN
+	1    2050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR015
 U 1 1 54A07D41
-P 2000 3500
-F 0 "#PWR015" H 2000 3500 30  0001 C CNN
-F 1 "GND" H 2000 3430 30  0001 C CNN
-F 2 "" H 2000 3500 60  0000 C CNN
-F 3 "" H 2000 3500 60  0000 C CNN
-	1    2000 3500
+P 2050 3900
+F 0 "#PWR015" H 2050 3900 30  0001 C CNN
+F 1 "GND" H 2050 3830 30  0001 C CNN
+F 2 "" H 2050 3900 60  0000 C CNN
+F 3 "" H 2050 3900 60  0000 C CNN
+	1    2050 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 3500 2000 3400
+	2050 3900 2050 3800
 Wire Wire Line
-	2000 3400 1700 3400
-Text Notes 1100 3400 0    60   Italic 0
+	2050 3800 1750 3800
+Text Notes 1150 3800 0    60   Italic 0
 (RX)\n(GND)
 Text GLabel 4750 6100 2    60   Input Italic 0
 RX-IN
 Wire Wire Line
 	4300 6100 4750 6100
-Text GLabel 2300 3300 2    60   Output Italic 0
+Text GLabel 2350 3700 2    60   Output Italic 0
 RX-OUT
 Wire Wire Line
-	1700 3300 2300 3300
+	1750 3700 2350 3700
 Text GLabel 4800 6300 2    60   Output Italic 0
 TXOUT
 Wire Wire Line
@@ -553,8 +510,6 @@ Wire Wire Line
 Text GLabel 10150 4250 2    60   Input Italic 0
 TXIN
 Connection ~ 4550 1400
-Text GLabel 4050 4800 2    50   Output ~ 0
-PTT
 Wire Wire Line
 	4400 1400 8550 1400
 $Comp
@@ -585,12 +540,10 @@ Wire Wire Line
 Connection ~ 8050 1400
 Wire Wire Line
 	8050 2000 8050 3850
-Connection ~ 1700 3300
-Connection ~ 1700 3400
-Connection ~ 1700 2700
-NoConn ~ 3500 5900
+Connection ~ 1750 3700
+Connection ~ 1750 3800
+Connection ~ 1750 3100
 NoConn ~ 4300 5800
-NoConn ~ 4300 6000
 $Comp
 L R R5
 U 1 1 54A2D14A
@@ -697,18 +650,17 @@ Wire Wire Line
 $Comp
 L CONN_01X02 P4
 U 1 1 54A54B0E
-P 1500 2750
-F 0 "P4" H 1500 2900 50  0000 C CNN
-F 1 "CONN_01X02" V 1600 2750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1500 2750 60  0001 C CNN
-F 3 "" H 1500 2750 60  0000 C CNN
-	1    1500 2750
+P 1550 3150
+F 0 "P4" H 1550 3300 50  0000 C CNN
+F 1 "CONN_01X02" V 1650 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1550 3150 60  0001 C CNN
+F 3 "" H 1550 3150 60  0000 C CNN
+	1    1550 3150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7750 4250 8050 4250
 Connection ~ 8050 3850
-Connection ~ 5650 4200
 Wire Wire Line
 	8050 4250 8050 4600
 Wire Wire Line
@@ -736,8 +688,6 @@ F 3 "" H 8450 3300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 8050 3300
-Wire Wire Line
-	4150 4050 5800 4050
 Wire Wire Line
 	8950 4600 8950 3850
 Wire Wire Line
@@ -770,36 +720,16 @@ $EndComp
 Wire Wire Line
 	5700 2100 6000 2100
 Wire Wire Line
-	7000 2400 7100 2400
-Wire Wire Line
-	7100 2400 7100 2600
-Wire Wire Line
 	7000 2100 7300 2100
 Wire Wire Line
 	7300 2100 7300 2950
 Wire Wire Line
-	7300 2950 5650 2950
-Wire Wire Line
-	5650 2950 5650 4200
+	7300 2950 4150 2950
 Wire Wire Line
 	7000 2200 7100 2200
 Wire Wire Line
 	7100 2200 7100 2100
 Connection ~ 7100 2100
-Wire Wire Line
-	7500 1500 7500 1400
-Connection ~ 7500 1400
-Wire Wire Line
-	7500 2000 7500 3500
-Wire Wire Line
-	7500 2300 7000 2300
-Wire Wire Line
-	1900 4100 1900 5400
-Wire Wire Line
-	3800 2100 3800 4100
-Wire Wire Line
-	7500 3500 3800 3500
-Connection ~ 7500 2300
 Wire Wire Line
 	6000 2300 5900 2300
 Wire Wire Line
@@ -810,7 +740,6 @@ Wire Wire Line
 	5700 2100 5700 1400
 Connection ~ 5700 1400
 NoConn ~ 6000 2400
-Connection ~ 9050 2500
 $Comp
 L OUT_TRANSFO T2
 U 1 1 54A9E7B7
@@ -842,101 +771,28 @@ Wire Wire Line
 	2050 1000 4400 1000
 Wire Wire Line
 	4400 1000 4400 1400
-Wire Wire Line
-	2050 2100 4000 2100
-Connection ~ 3800 3500
-Wire Wire Line
-	2050 1100 2700 1100
-Wire Wire Line
-	2050 2000 2750 2000
-Text GLabel 2750 2000 2    50   Output ~ 0
+Text GLabel 4200 2350 2    50   Output ~ 0
 A
-Text GLabel 2750 1900 2    50   Output ~ 0
+Text GLabel 4200 2000 2    50   Output ~ 0
 B
-Text GLabel 2750 1800 2    50   Output ~ 0
+Text GLabel 4200 1650 2    50   Output ~ 0
 C
 Wire Wire Line
-	2050 1800 2750 1800
-Wire Wire Line
-	2050 1900 2750 1900
-NoConn ~ 2050 1700
+	2050 1800 2800 1800
 NoConn ~ 2050 1600
 NoConn ~ 2050 1500
 NoConn ~ 2050 1400
-NoConn ~ 2050 1200
-$Comp
-L NPN Q2
-U 1 1 54C1FC1A
-P 3600 5000
-F 0 "Q2" H 3600 4850 50  0000 R CNN
-F 1 "2N3904" H 3600 5150 50  0000 R CNN
-F 2 "Transistors_SMD:sot23" H 3600 5000 60  0001 C CNN
-F 3 "" H 3600 5000 60  0000 C CNN
-	1    3600 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 54C1FCFB
-P 3150 5000
-F 0 "R2" V 3230 5000 40  0000 C CNN
-F 1 "4.99k" V 3157 5001 40  0000 C CNN
-F 2 "HERMESLITE:R_0805" V 3080 5000 30  0001 C CNN
-F 3 "" H 3150 5000 30  0000 C CNN
-	1    3150 5000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	2700 4200 4550 4200
-Wire Wire Line
-	4550 4200 4550 1400
-Text GLabel 3500 4300 0    50   Input ~ 0
-5V
-$Comp
-L R R3
-U 1 1 54C201FE
-P 3700 4550
-F 0 "R3" V 3780 4550 40  0000 C CNN
-F 1 "4.99k" V 3707 4551 40  0000 C CNN
-F 2 "HERMESLITE:R_0805" V 3630 4550 30  0001 C CNN
-F 3 "" H 3700 4550 30  0000 C CNN
-	1    3700 4550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 4800 4050 4800
-Wire Wire Line
-	2900 5000 1900 5000
-Connection ~ 1900 5000
-$Comp
-L GND #PWR021
-U 1 1 54C204DD
-P 3700 5200
-F 0 "#PWR021" H 3700 5200 30  0001 C CNN
-F 1 "GND" H 3700 5130 30  0001 C CNN
-F 2 "" H 3700 5200 50  0000 C CNN
-F 3 "" H 3700 5200 50  0000 C CNN
-	1    3700 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4100 1900 4100
-Wire Wire Line
-	3500 4300 3700 4300
-Connection ~ 3700 4300
+	4550 1400 4550 5600
 Connection ~ 2050 2000
 Connection ~ 2050 1900
 Connection ~ 2050 1800
 Connection ~ 2050 1000
-Connection ~ 2050 1100
-Text GLabel 4000 2100 2    50   Output ~ 0
-#PTT
-Connection ~ 3800 2100
 $Comp
-L GND #PWR022
+L GND #PWR021
 U 1 1 54C10FCC
 P 2400 1400
-F 0 "#PWR022" H 2400 1400 30  0001 C CNN
+F 0 "#PWR021" H 2400 1400 30  0001 C CNN
 F 1 "GND" H 2400 1330 30  0001 C CNN
 F 2 "" H 2400 1400 60  0000 C CNN
 F 3 "" H 2400 1400 60  0000 C CNN
@@ -947,4 +803,172 @@ Wire Wire Line
 	2050 1300 2400 1300
 Wire Wire Line
 	2400 1300 2400 1400
+$Comp
+L MOS_N Q1
+U 1 1 54C18950
+P 3200 7100
+F 0 "Q1" H 3210 7270 60  0000 R CNN
+F 1 "2N7000" H 3100 6900 60  0000 R CNN
+F 2 "SMD_Packages:SOT-23-GDS" H 3200 7100 60  0001 C CNN
+F 3 "" H 3200 7100 60  0000 C CNN
+	1    3200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U1
+U 1 1 54C1DCCB
+P 3550 1300
+F 0 "U1" H 3745 1415 60  0000 C CNN
+F 1 "4050" H 3740 1175 60  0001 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3550 1300 50  0001 C CNN
+F 3 "" H 3550 1300 50  0000 C CNN
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U1
+U 2 1 54C1DCFE
+P 3550 1650
+F 0 "U1" H 3745 1765 60  0000 C CNN
+F 1 "4050" H 3740 1525 60  0001 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3550 1650 50  0001 C CNN
+F 3 "" H 3550 1650 50  0000 C CNN
+	2    3550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4050 U1
+U 3 1 54C1DE35
+P 3550 2000
+F 0 "U1" H 3745 2115 60  0000 C CNN
+F 1 "4050" H 3740 1875 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3550 2000 50  0001 C CNN
+F 3 "" H 3550 2000 50  0000 C CNN
+	3    3550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1100 2400 1100
+Wire Wire Line
+	3500 1050 3500 1200
+Wire Wire Line
+	2350 1050 2350 1100
+Connection ~ 2350 1100
+Wire Wire Line
+	7000 2400 7100 2400
+Wire Wire Line
+	7100 2400 7100 2600
+Wire Wire Line
+	3500 1050 2350 1050
+$Comp
+L GND #PWR022
+U 1 1 54C2162C
+P 3500 2500
+F 0 "#PWR022" H 3500 2500 30  0001 C CNN
+F 1 "GND" H 3500 2430 30  0001 C CNN
+F 2 "" H 3500 2500 60  0000 C CNN
+F 3 "" H 3500 2500 60  0000 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2100 2400 2100
+Wire Wire Line
+	2400 2100 2400 2750
+$Comp
+L 4050 U1
+U 4 1 54C41FA3
+P 3550 2350
+F 0 "U1" H 3745 2465 60  0000 C CNN
+F 1 "4050" H 3740 2225 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3550 2350 50  0001 C CNN
+F 3 "" H 3550 2350 50  0000 C CNN
+	4    3550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2500 3500 2450
+Wire Wire Line
+	2050 2000 2700 2000
+Wire Wire Line
+	2700 2000 2700 2350
+Wire Wire Line
+	2700 2350 3100 2350
+Wire Wire Line
+	2050 1900 2800 1900
+Wire Wire Line
+	2800 1900 2800 2000
+Wire Wire Line
+	2800 2000 3100 2000
+Wire Wire Line
+	2800 1800 2800 1650
+Wire Wire Line
+	2800 1650 3100 1650
+Wire Wire Line
+	2050 1700 2700 1700
+Wire Wire Line
+	2700 1700 2700 1300
+Wire Wire Line
+	2700 1300 3100 1300
+Text GLabel 4200 1300 2    50   Output ~ 0
+D
+Wire Wire Line
+	4000 1300 4200 1300
+Wire Wire Line
+	4000 1650 4200 1650
+Wire Wire Line
+	4000 2000 4200 2000
+Wire Wire Line
+	4000 2350 4200 2350
+$Comp
+L 4050 U1
+U 5 1 54C43074
+P 3550 2750
+F 0 "U1" H 3745 2865 60  0000 C CNN
+F 1 "4050" H 3740 2625 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0000 C CNN
+	5    3550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2750 3100 2750
+Wire Wire Line
+	7000 2300 7200 2300
+Wire Wire Line
+	7200 2300 7200 2750
+Wire Wire Line
+	7200 2750 4000 2750
+Wire Wire Line
+	5800 4050 5100 4050
+Wire Wire Line
+	5100 4050 5100 3100
+Wire Wire Line
+	5100 3100 1750 3100
+NoConn ~ 2050 1200
+Wire Wire Line
+	3300 7300 3300 7450
+Wire Wire Line
+	2700 7100 3000 7100
+Wire Wire Line
+	4550 5600 3250 5600
+Wire Wire Line
+	3250 5600 3250 6400
+Wire Wire Line
+	3250 6400 3500 6400
+Wire Wire Line
+	2700 4200 4150 4200
+Wire Wire Line
+	4150 4200 4150 2950
+Wire Wire Line
+	2700 5900 3500 5900
+Connection ~ 2700 5900
+Wire Wire Line
+	4300 6000 5100 6000
+Wire Wire Line
+	5100 6000 5100 4200
+Wire Wire Line
+	5100 4200 5650 4200
+Text Notes 3950 6950 0    50   ~ 0
+Note: Using the regulator bias to invert PTT\nto drive the relay. Also sending the bias thru\nthe relay so that the mechanical action is \nsettled prior to applying the bias to the amplifier.
 $EndSCHEMATC

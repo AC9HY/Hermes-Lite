@@ -177,7 +177,7 @@ F 3 "" H 3100 4200 60  0000 C CNN
 	1    3100 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 3550 4500 0    60   ~ 0
+Text Notes 4000 3600 0    60   ~ 0
 6T bifilar\n4T\nBN-61-2402
 Text Notes 4600 3100 0    60   ~ 0
 4T bifilar\n6T\nBN-61-2402
@@ -545,7 +545,7 @@ Text Notes 1100 7500 2    60   ~ 0
 Ground\nOption
 Text Notes 1400 7350 0    50   ~ 0
 BN-61-2402\n  2x4T #30
-Text Notes 1500 4550 0    60   ~ 0
+Text Notes 1700 4400 0    60   ~ 0
 PTT# - RX=high, TX=low\nGPIO0 = BS0=low, BS1=high
 Text Notes 3600 6750 0    60   ~ 0
 (Band Specific Values)
@@ -667,7 +667,7 @@ L R R8
 U 1 1 54AE8962
 P 8150 1800
 F 0 "R8" V 8230 1800 40  0000 C CNN
-F 1 "10k" V 8157 1801 40  0000 C CNN
+F 1 "DNI" V 8157 1801 40  0000 C CNN
 F 2 "HERMESLITE:R_0805" V 8080 1800 30  0001 C CNN
 F 3 "" H 8150 1800 30  0000 C CNN
 	1    8150 1800
@@ -1662,4 +1662,41 @@ Wire Wire Line
 Wire Wire Line
 	2200 5400 2150 5400
 Connection ~ 1300 5250
+Text Notes 7800 2100 0    50   ~ 10
+Remove on next revision
+$Comp
+L MOS_N Q2-next
+U 1 1 54C3289A
+P 4050 4850
+F 0 "Q2-next" H 4150 5100 60  0000 R CNN
+F 1 "FDV301" H 3950 4750 60  0000 R CNN
+F 2 "" H 4050 4850 60  0000 C CNN
+F 3 "" H 4050 4850 60  0000 C CNN
+	1    4050 4850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3500 4850 3800 4850
+Wire Notes Line
+	3450 4650 4050 4650
+Wire Notes Line
+	4100 5050 3750 5050
+Wire Notes Line
+	3450 5050 3550 5050
+Text Notes 2100 4750 0    50   ~ 10
+Replace with 0R0
+Text Notes 2350 5100 0    50   ~ 10
+DNI?
+Text Notes 2900 4650 0    50   ~ 10
+Need to pull up gate\nwith 10K to 3.3V
+Wire Notes Line
+	1450 5150 1450 6000
+Wire Notes Line
+	1450 6000 1950 6000
+Wire Notes Line
+	1950 6000 1950 5150
+Wire Notes Line
+	1950 5150 1450 5150
+Text Notes 1450 5100 0    50   ~ 10
+Remove in\nnext revision
 $EndSCHEMATC
