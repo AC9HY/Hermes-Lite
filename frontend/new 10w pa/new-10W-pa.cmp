@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 25/01/2015 06:37:02
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 03/02/2015 07:51:59
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -402,7 +402,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54A2CB7A;
 Reference = C58;
-ValeurCmp = 300pF;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -592,6 +592,13 @@ BeginCmp
 TimeStamp = /549F2C74/54C325EB;
 Reference = C85;
 ValeurCmp = 0.01uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54C9395B;
+Reference = C86;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -1046,7 +1053,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54C32431;
 Reference = L40;
-ValeurCmp = 4700uH;
+ValeurCmp = 4700nH;
 IdModule  = HERMESLITE:Choke_SMD_1206_Standard;
 EndCmp
 
@@ -1081,7 +1088,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54C18950;
 Reference = Q1;
-ValeurCmp = 2N7000;
+ValeurCmp = FDV301;
+IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0D979;
+Reference = Q2;
+ValeurCmp = FDV301;
 IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 
@@ -1095,7 +1109,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549F2C74/54C3D497;
 Reference = Q4;
-ValeurCmp = LDV301;
+ValeurCmp = FDV301;
 IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 

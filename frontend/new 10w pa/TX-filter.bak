@@ -36,11 +36,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 3
-Title "Hermes-Lite Basic TX Filter 160m-10m"
-Date "21 January 2015"
-Rev "1.2"
+Title "Hermes-Lite TX Filter 160m-10m"
+Date "03 February 2015"
+Rev "1.21"
 Comp "SofterHardware"
-Comment1 "AC9HY"
+Comment1 "AC9HY/WA2EUJ"
 Comment2 ""
 Comment3 ""
 Comment4 ""

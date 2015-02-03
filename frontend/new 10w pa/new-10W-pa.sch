@@ -36,11 +36,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
-Title "Hermes-Lite Basic 5W Power Amplifier with Filters"
-Date "21 January 2015"
-Rev "1.2"
+Title "Hermes-Lite Megaband 5W Power Amplifier"
+Date "03 February 2015"
+Rev "1.21"
 Comp "SofterHardware"
-Comment1 "AC9HY"
+Comment1 "AC9HY/WA2EUJ"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -722,9 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2100 7300 2100
 Wire Wire Line
-	7300 2100 7300 2950
-Wire Wire Line
-	7300 2950 4150 2950
+	7300 2100 7300 3450
 Wire Wire Line
 	7000 2200 7100 2200
 Wire Wire Line
@@ -808,7 +806,7 @@ L MOS_N Q1
 U 1 1 54C18950
 P 3200 7100
 F 0 "Q1" H 3210 7270 60  0000 R CNN
-F 1 "2N7000" H 3100 6900 60  0000 R CNN
+F 1 "FDV301" H 3100 6900 60  0000 R CNN
 F 2 "SMD_Packages:SOT-23-GDS" H 3200 7100 60  0001 C CNN
 F 3 "" H 3200 7100 60  0000 C CNN
 	1    3200 7100
@@ -938,8 +936,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 2300 7200 2750
 Wire Wire Line
-	7200 2750 4000 2750
-Wire Wire Line
 	5800 4050 5100 4050
 Wire Wire Line
 	5100 4050 5100 3100
@@ -959,8 +955,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 4200 4150 4200
 Wire Wire Line
-	4150 4200 4150 2950
-Wire Wire Line
 	2700 5900 3500 5900
 Connection ~ 2700 5900
 Wire Wire Line
@@ -969,6 +963,40 @@ Wire Wire Line
 	5100 6000 5100 4200
 Wire Wire Line
 	5100 4200 5650 4200
-Text Notes 3950 6950 0    50   ~ 0
-Note: Using the regulator bias to invert PTT\nto drive the relay. Also sending the bias thru\nthe relay so that the mechanical action is \nsettled prior to applying the bias to the amplifier.
+$Comp
+L MOS_N Q2
+U 1 1 54D0D979
+P 5750 2950
+F 0 "Q2" H 5760 3120 60  0000 R CNN
+F 1 "FDV301" H 5650 2750 60  0000 R CNN
+F 2 "SMD_Packages:SOT-23-GDS" H 5750 2950 60  0001 C CNN
+F 3 "" H 5750 2950 60  0000 C CNN
+	1    5750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2950 5300 2950
+Wire Wire Line
+	5300 2950 5300 2750
+Wire Wire Line
+	5300 2750 4000 2750
+Wire Wire Line
+	7200 2750 5850 2750
+$Comp
+L GND #PWR023
+U 1 1 54D0DD55
+P 5850 3150
+F 0 "#PWR023" H 5850 3150 30  0001 C CNN
+F 1 "GND" H 5850 3080 30  0001 C CNN
+F 2 "" H 5850 3150 50  0000 C CNN
+F 3 "" H 5850 3150 50  0000 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4200 4150 3450
+Wire Wire Line
+	4150 3450 7300 3450
+Text Notes 2450 2950 0    50   ~ 0
+PTT - TX Hi, RX Low
 $EndSCHEMATC

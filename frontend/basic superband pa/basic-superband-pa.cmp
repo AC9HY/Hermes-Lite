@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 19/01/2015 06:53:03
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 31/01/2015 11:23:49
 
 BeginCmp
 TimeStamp = /548163A6;
 Reference = C1;
-ValeurCmp = 0.1uF;
+ValeurCmp = 0.01uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -214,14 +214,7 @@ BeginCmp
 TimeStamp = /54434516;
 Reference = FB1;
 ValeurCmp = FB;
-IdModule  = SMD_Packages:SMD-1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /54BD04F7;
-Reference = JP1;
-ValeurCmp = JUMPER4;
-IdModule  = HERMESLITE:JUMPER4;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -330,17 +323,17 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AF68F4;
+TimeStamp = /54CC4130;
 Reference = Q1;
-ValeurCmp = NPN;
-IdModule  = Transistors_SMD:sot23;
+ValeurCmp = FDV301;
+IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AF8DD7;
+TimeStamp = /54CC84C9;
 Reference = Q2;
-ValeurCmp = PNP;
-IdModule  = Transistors_SMD:sot23;
+ValeurCmp = FDV301;
+IdModule  = SMD_Packages:SOT-23-GDS;
 EndCmp
 
 BeginCmp
@@ -351,80 +344,59 @@ IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AF68BA;
-Reference = R1;
-ValeurCmp = 4.99k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /547DE096;
-Reference = R2;
-ValeurCmp = 1k;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5443441E;
 Reference = R4;
 ValeurCmp = 0;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AE9C13;
 Reference = R5;
 ValeurCmp = 6.8;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /547BF275;
 Reference = R6;
 ValeurCmp = 10k;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AE9CEC;
 Reference = R7;
 ValeurCmp = 270;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AE8962;
+TimeStamp = /54CC9D6A;
 Reference = R8;
 ValeurCmp = 10k;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B1B29F;
 Reference = R10;
 ValeurCmp = DNI;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B1AF90;
 Reference = R11;
 ValeurCmp = 0;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B1B0A6;
 Reference = R12;
 ValeurCmp = DNI;
-IdModule  = HERMESLITE:R_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54BD0931;
-Reference = R13;
-ValeurCmp = 4.99k;
-IdModule  = HERMESLITE:R_0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
