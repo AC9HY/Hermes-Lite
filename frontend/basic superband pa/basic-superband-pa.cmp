@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 31/01/2015 11:23:49
-
-BeginCmp
-TimeStamp = /548163A6;
-Reference = C1;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 08/02/2015 21:09:35
 
 BeginCmp
 TimeStamp = /5443416A;
@@ -46,7 +39,7 @@ BeginCmp
 TimeStamp = /54872CD7;
 Reference = C7;
 ValeurCmp = 47uF 16V;
-IdModule  = Discret:C1V8;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -151,7 +144,7 @@ BeginCmp
 TimeStamp = /54AEFE24;
 Reference = C22;
 ValeurCmp = 10uF 16V;
-IdModule  = Capacitors_SMD:C_1206;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -169,22 +162,8 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B3E46F;
-Reference = C25;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /54B3F199;
 Reference = C26;
-ValeurCmp = 0.01uF;
-IdModule  = HERMESLITE:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B3F378;
-Reference = C27;
 ValeurCmp = 0.01uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
@@ -199,6 +178,20 @@ EndCmp
 BeginCmp
 TimeStamp = /54B52D87;
 Reference = C29;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D82DF6;
+Reference = C30;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D82BD4;
+Reference = C31;
 ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
@@ -323,24 +316,24 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CC4130;
-Reference = Q1;
-ValeurCmp = FDV301;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CC84C9;
-Reference = Q2;
-ValeurCmp = FDV301;
-IdModule  = SMD_Packages:SOT-23-GDS;
-EndCmp
-
-BeginCmp
 TimeStamp = /54AE9D92;
 Reference = Q3;
 ValeurCmp = RD16HHF1;
 IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D646FF;
+Reference = R1;
+ValeurCmp = 1.2k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D658FB;
+Reference = R2;
+ValeurCmp = 1.2k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -432,6 +425,13 @@ TimeStamp = /54AE7FBE;
 Reference = U1;
 ValeurCmp = LP2951-50D;
 IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D63C1A;
+Reference = U2;
+ValeurCmp = LVT827;
+IdModule  = Power_Integrations:SMD-8;
 EndCmp
 
 BeginCmp

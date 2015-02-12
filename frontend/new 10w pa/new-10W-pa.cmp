@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 03/02/2015 07:51:59
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 09/02/2015 08:38:56
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -603,6 +603,48 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D64DC9;
+Reference = C87;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D8CF54;
+Reference = C88;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D8CF9D;
+Reference = C89;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D8D011;
+Reference = C90;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54D8E8FD;
+Reference = C91;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /549F2C74/54D8F694;
+Reference = C92;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54BFC578;
 Reference = CN1;
 ValeurCmp = BREAKOUT;
@@ -1072,6 +1114,13 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D61932;
+Reference = P3;
+ValeurCmp = External 12V-13.8V (OSTTC022162);
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /54A54B0E;
 Reference = P4;
 ValeurCmp = CONN_01X02;
@@ -1082,6 +1131,13 @@ BeginCmp
 TimeStamp = /54A07990;
 Reference = P5;
 ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5496A059/54D66FF2;
+Reference = P6;
+ValeurCmp = TX Filter Activate Jumper;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
@@ -1111,6 +1167,13 @@ TimeStamp = /549F2C74/54C3D497;
 Reference = Q4;
 ValeurCmp = FDV301;
 IdModule  = SMD_Packages:SOT-23-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D62964;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = HERMESLITE:R_0805;
 EndCmp
 
 BeginCmp
@@ -1230,6 +1293,13 @@ TimeStamp = /549F2C74/54C19B82;
 Reference = U3;
 ValeurCmp = 74LS145;
 IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D62F05;
+Reference = U6;
+ValeurCmp = LP2951-50D;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
