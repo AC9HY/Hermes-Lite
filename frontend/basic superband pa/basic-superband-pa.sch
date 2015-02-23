@@ -250,9 +250,9 @@ F 3 "" H 2800 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1850 5650 0    60   Input ~ 0
-USEROUT0
+USEROUT4
 Text GLabel 3900 1350 2    60   Output ~ 0
-USEROUT0
+USEROUT4
 $Comp
 L INDUCTOR L7
 U 1 1 547D41C7
@@ -1021,8 +1021,6 @@ Wire Wire Line
 	1750 4000 1600 4000
 Connection ~ 1600 4000
 Wire Wire Line
-	3550 2850 2950 2850
-Wire Wire Line
 	3650 3000 2950 3000
 Wire Wire Line
 	1550 2750 1750 2750
@@ -1127,7 +1125,6 @@ Connection ~ 4400 2350
 Connection ~ 4100 1650
 Connection ~ 4200 1650
 Connection ~ 4200 2150
-Connection ~ 2950 2850
 Connection ~ 2950 3000
 Connection ~ 2950 3100
 Connection ~ 2950 3400
@@ -1150,7 +1147,6 @@ Connection ~ 1750 3800
 Connection ~ 1750 3900
 Connection ~ 1750 4000
 Connection ~ 3800 1650
-Connection ~ 3100 4850
 Wire Wire Line
 	1550 1650 3800 1650
 Connection ~ 5000 1550
@@ -1188,9 +1184,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6200 6200 6200
 Wire Wire Line
-	6600 2350 6350 2350
-Wire Wire Line
-	6350 2350 6350 1550
+	6350 2350 6600 2350
 Connection ~ 6350 1550
 Wire Wire Line
 	6600 2450 6550 2450
@@ -1407,14 +1401,11 @@ $EndComp
 Wire Wire Line
 	2300 6400 2950 6400
 Wire Wire Line
-	3550 2850 3550 1350
-Wire Wire Line
 	3650 1450 3650 3000
 NoConn ~ 1750 2350
 NoConn ~ 1750 2250
 NoConn ~ 2950 2250
 NoConn ~ 2950 2350
-NoConn ~ 2950 2450
 NoConn ~ 2950 2550
 NoConn ~ 2950 2650
 NoConn ~ 2950 2750
@@ -1496,7 +1487,7 @@ U 1 1 54D63C1A
 P 3050 4700
 F 0 "U2" H 2860 4890 40  0000 C CNN
 F 1 "LVT827" H 3210 4510 40  0000 C CNN
-F 2 "Power_Integrations:SMD-8" H 2850 4520 30  0000 C CIN
+F 2 "Power_Integrations:SMD-8" H 2850 4520 30  0001 C CIN
 F 3 "" H 3050 4700 60  0000 C CNN
 	1    3050 4700
 	1    0    0    -1  
@@ -1569,9 +1560,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 5850 1600 5850
 Wire Wire Line
-	2800 5650 2950 5650
+	2800 5650 3150 5650
 Wire Wire Line
-	2950 5650 2950 6400
+	2950 6400 2950 5650
 Wire Wire Line
 	1850 5650 2100 5650
 $Comp
@@ -1622,4 +1613,113 @@ Connection ~ 4750 1550
 Connection ~ 4500 1550
 Connection ~ 4500 1950
 Connection ~ 4750 1950
+NoConn ~ 2950 2850
+Wire Wire Line
+	2950 2450 3550 2450
+Wire Wire Line
+	3550 2450 3550 1350
+$Comp
+L LED D2
+U 1 1 54E899BF
+P 6350 900
+F 0 "D2" H 6350 1000 50  0000 C CNN
+F 1 "RED LED (PTT)" H 6350 800 40  0000 C CNN
+F 2 "LEDs:LED-0805" H 6350 900 60  0001 C CNN
+F 3 "" H 6350 900 60  0000 C CNN
+	1    6350 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 5650 2    50   Output ~ 0
+BAND1
+Connection ~ 2950 5650
+$Comp
+L LED D3
+U 1 1 54E8AC32
+P 6950 1100
+F 0 "D3" H 6950 1200 50  0000 C CNN
+F 1 "GRN LED (PWR ON)" H 6950 1000 40  0000 C CNN
+F 2 "LEDs:LED-0805" H 6950 1100 60  0001 C CNN
+F 3 "" H 6950 1100 60  0000 C CNN
+	1    6950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 54E8AC8C
+P 5750 700
+F 0 "D1" H 5750 800 50  0000 C CNN
+F 1 "YEL LED (Band1)" H 5750 600 40  0000 C CNN
+F 2 "LEDs:LED-0805" H 5750 700 60  0001 C CNN
+F 3 "" H 5750 700 60  0000 C CNN
+	1    5750 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1100 6750 1100
+$Comp
+L R R13
+U 1 1 54E8B1B0
+P 7400 1100
+F 0 "R13" V 7480 1100 40  0000 C CNN
+F 1 "4.99k" V 7407 1101 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7330 1100 30  0001 C CNN
+F 3 "" H 7400 1100 30  0000 C CNN
+	1    7400 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 54E8B2ED
+P 6800 900
+F 0 "R9" V 6880 900 40  0000 C CNN
+F 1 "4.99k" V 6807 901 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6730 900 30  0001 C CNN
+F 3 "" H 6800 900 30  0000 C CNN
+	1    6800 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 54E8B399
+P 6200 700
+F 0 "R3" V 6280 700 40  0000 C CNN
+F 1 "4.99k" V 6207 701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6130 700 30  0001 C CNN
+F 3 "" H 6200 700 30  0000 C CNN
+	1    6200 700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 1550 5250 700 
+Wire Wire Line
+	5250 700  5550 700 
+Wire Wire Line
+	5250 900  6150 900 
+Connection ~ 5250 900 
+Wire Wire Line
+	6350 1550 6350 2350
+Connection ~ 5250 1100
+Wire Wire Line
+	7650 1100 7750 1100
+Wire Wire Line
+	7750 1100 7750 1200
+$Comp
+L GND #PWR036
+U 1 1 54E8C475
+P 7750 1200
+F 0 "#PWR036" H 7750 1200 30  0001 C CNN
+F 1 "GND" H 7750 1130 30  0001 C CNN
+F 2 "" H 7750 1200 60  0000 C CNN
+F 3 "" H 7750 1200 60  0000 C CNN
+	1    7750 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7200 900  2    50   Input ~ 0
+/PTT
+Text GLabel 6600 700  2    50   Input ~ 0
+BAND1
+Wire Wire Line
+	6450 700  6600 700 
+Wire Wire Line
+	7050 900  7200 900 
 $EndSCHEMATC
