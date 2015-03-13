@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 25 Nov 2014 08:13:32 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 27/02/2015 21:40:55
 
 BeginCmp
 TimeStamp = /544344BB;
@@ -43,31 +43,24 @@ IdModule  = HERMESLITE:BREAKOUT;
 EndCmp
 
 BeginCmp
-TimeStamp = /547563D3;
-Reference = CN3;
-ValeurCmp = TXL;
-IdModule  = HERMESLITE:JUMPER;
-EndCmp
-
-BeginCmp
-TimeStamp = /54756604;
-Reference = CN4;
-ValeurCmp = AGND;
-IdModule  = HERMESLITE:JUMPER;
-EndCmp
-
-BeginCmp
-TimeStamp = /54756621;
-Reference = CN5;
-ValeurCmp = AGND;
-IdModule  = HERMESLITE:JUMPER;
-EndCmp
-
-BeginCmp
 TimeStamp = /544342D9;
 Reference = D1;
 ValeurCmp = DIODESCH2;
 IdModule  = HERMESLITE:SOD323;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE764E;
+Reference = D2;
+ValeurCmp = GREEN LED (PWR ON);
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE7ADA;
+Reference = D3;
+ValeurCmp = RED LED (PTT);
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -78,31 +71,52 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /544343F7;
-Reference = J1;
-ValeurCmp = 0;
-IdModule  = HERMESLITE:JUMPER;
-EndCmp
-
-BeginCmp
-TimeStamp = /544343B2;
-Reference = J2;
-ValeurCmp = 0;
-IdModule  = HERMESLITE:JUMPER;
-EndCmp
-
-BeginCmp
-TimeStamp = /544340A8;
+TimeStamp = /54DFA9CA;
 Reference = P1;
-ValeurCmp = BNC;
-IdModule  = HERMESLITE:BNCRA;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /544340D3;
+TimeStamp = /54DFAA50;
 Reference = P2;
-ValeurCmp = BNC;
-IdModule  = HERMESLITE:BNCRA;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFA723;
+Reference = P3;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF6135;
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE891D;
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF63C0;
+Reference = P6;
+ValeurCmp = CONN_01X12;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE6FB0;
+Reference = Q1;
+ValeurCmp = 2N7000;
+IdModule  = HERMESLITE:SOT-23-GDS;
 EndCmp
 
 BeginCmp
@@ -110,6 +124,41 @@ TimeStamp = /5443441E;
 Reference = R1;
 ValeurCmp = 0;
 IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE8DE6;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE781D;
+Reference = R3;
+ValeurCmp = 1.2K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DE7AA3;
+Reference = R4;
+ValeurCmp = 1.2K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFB23D;
+Reference = RP1;
+ValeurCmp = 10k;
+IdModule  = Discret:r_pack9;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFB264;
+Reference = RP2;
+ValeurCmp = 10k;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -124,6 +173,20 @@ TimeStamp = /54433FF8;
 Reference = T2;
 ValeurCmp = 8:1;
 IdModule  = HERMESLITE:TRANSFREV;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF8B2B;
+Reference = U1;
+ValeurCmp = 4050;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DF7BAE;
+Reference = U2;
+ValeurCmp = 74LS145;
+IdModule  = ;
 EndCmp
 
 EndListe
