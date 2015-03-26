@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 27/02/2015 21:40:55
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 18/03/2015 20:04:14
 
 BeginCmp
 TimeStamp = /544344BB;
@@ -71,38 +71,17 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DFA9CA;
-Reference = P1;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+TimeStamp = /550A2257;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = HERMESLITE:SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DFAA50;
-Reference = P2;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54DFA723;
-Reference = P3;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54DF6135;
-Reference = P4;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54DE891D;
-Reference = P5;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+TimeStamp = /550A240A;
+Reference = J2;
+ValeurCmp = SMA;
+IdModule  = HERMESLITE:SMA;
 EndCmp
 
 BeginCmp
@@ -115,7 +94,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54DE6FB0;
 Reference = Q1;
-ValeurCmp = 2N7000;
+ValeurCmp = 2N7002;
 IdModule  = HERMESLITE:SOT-23-GDS;
 EndCmp
 
@@ -123,7 +102,7 @@ BeginCmp
 TimeStamp = /5443441E;
 Reference = R1;
 ValeurCmp = 0;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -148,17 +127,17 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DFB23D;
-Reference = RP1;
+TimeStamp = /54F169D2;
+Reference = R5;
 ValeurCmp = 10k;
-IdModule  = Discret:r_pack9;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DFB264;
-Reference = RP2;
-ValeurCmp = 10k;
-IdModule  = ;
+TimeStamp = /54F13952;
+Reference = RR1;
+ValeurCmp = RR9 - 10k;
+IdModule  = Discret:r_pack9;
 EndCmp
 
 BeginCmp
@@ -179,14 +158,14 @@ BeginCmp
 TimeStamp = /54DF8B2B;
 Reference = U1;
 ValeurCmp = 4050;
-IdModule  = ;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DF7BAE;
 Reference = U2;
 ValeurCmp = 74LS145;
-IdModule  = ;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
 EndCmp
 
 EndListe

@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 21/02/2015 07:11:38
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 22/03/2015 07:49:05
+
+BeginCmp
+TimeStamp = /54ED3E64;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /5443416A;
@@ -73,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54AEA33C;
 Reference = C12;
-ValeurCmp = 0.01uF;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -94,35 +101,35 @@ EndCmp
 BeginCmp
 TimeStamp = /547BF1D3;
 Reference = C15;
-ValeurCmp = 0.01uF;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AE9C7C;
 Reference = C16;
-ValeurCmp = 0.01uF;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AE82FE;
 Reference = C17;
-ValeurCmp = 0.1uF;
+ValeurCmp = 1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AEE19A;
 Reference = C18;
-ValeurCmp = 120pF;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AEFAFD;
 Reference = C19;
-ValeurCmp = 0.01uF;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -150,28 +157,28 @@ EndCmp
 BeginCmp
 TimeStamp = /54AF287B;
 Reference = C23;
-ValeurCmp = 120pF;
+ValeurCmp = 220pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AF28EF;
 Reference = C24;
-ValeurCmp = 82pF;
+ValeurCmp = 150pF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B3F199;
 Reference = C26;
-ValeurCmp = 0.01uF;
+ValeurCmp = 0.1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B3D855;
 Reference = C28;
-ValeurCmp = 0.01uF;
+ValeurCmp = 1uF;
 IdModule  = HERMESLITE:C_0805;
 EndCmp
 
@@ -304,7 +311,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54AF23B3;
 Reference = L9;
-ValeurCmp = 192nH;
+ValeurCmp = 240nH;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
@@ -318,7 +325,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54AF2806;
 Reference = L11;
-ValeurCmp = 192nH;
+ValeurCmp = 240nH;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_6,5x13mm_Vertical;
 EndCmp
 
@@ -337,6 +344,20 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
+TimeStamp = /550BDA20;
+Reference = P3;
+ValeurCmp = Ext PTT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /550EC103;
+Reference = P4;
+ValeurCmp = 12-13.8v;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /54AE9D92;
 Reference = Q3;
 ValeurCmp = RD16HHF1;
@@ -346,14 +367,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54D646FF;
 Reference = R1;
-ValeurCmp = 1.2k;
+ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D658FB;
 Reference = R2;
-ValeurCmp = 1.2k;
+ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
@@ -430,6 +451,13 @@ EndCmp
 BeginCmp
 TimeStamp = /54E8B1B0;
 Reference = R13;
+ValeurCmp = 4.99k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550BE620;
+Reference = R14;
 ValeurCmp = 4.99k;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
