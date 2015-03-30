@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 18/03/2015 20:04:14
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 29/03/2015 07:24:50
 
 BeginCmp
 TimeStamp = /544344BB;
@@ -36,13 +36,6 @@ IdModule  = HERMESLITE:EDGE;
 EndCmp
 
 BeginCmp
-TimeStamp = /54755307;
-Reference = CN2;
-ValeurCmp = BREAKOUT;
-IdModule  = HERMESLITE:BREAKOUT;
-EndCmp
-
-BeginCmp
 TimeStamp = /544342D9;
 Reference = D1;
 ValeurCmp = DIODESCH2;
@@ -71,30 +64,51 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /550A2257;
+TimeStamp = /5516B370;
 Reference = J1;
-ValeurCmp = SMA;
-IdModule  = HERMESLITE:SMA;
+ValeurCmp = CONN_02X01;
+IdModule  = HERMESLITE:JUMPER;
 EndCmp
 
 BeginCmp
-TimeStamp = /550A240A;
+TimeStamp = /5516AF94;
 Reference = J2;
-ValeurCmp = SMA;
-IdModule  = HERMESLITE:SMA;
+ValeurCmp = CONN_02X01;
+IdModule  = HERMESLITE:JUMPER;
+EndCmp
+
+BeginCmp
+TimeStamp = /55169880;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55169975;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DF63C0;
-Reference = P6;
+Reference = P3;
 ValeurCmp = CONN_01X12;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5518042D;
+Reference = P4;
+ValeurCmp = CONN_01X07;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DE6FB0;
 Reference = Q1;
-ValeurCmp = 2N7002;
+ValeurCmp = FDV301;
 IdModule  = HERMESLITE:SOT-23-GDS;
 EndCmp
 
@@ -115,14 +129,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54DE781D;
 Reference = R3;
-ValeurCmp = 1.2K;
+ValeurCmp = 4.99K;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DE7AA3;
 Reference = R4;
-ValeurCmp = 1.2K;
+ValeurCmp = 4.99k;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 

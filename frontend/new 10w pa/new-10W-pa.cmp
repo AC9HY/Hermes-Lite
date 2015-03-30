@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 27/02/2015 20:49:01
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 29/03/2015 09:37:44
 
 BeginCmp
 TimeStamp = /54872F5F;
@@ -645,10 +645,17 @@ IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54BFC578;
-Reference = CN1;
-ValeurCmp = BREAKOUT;
-IdModule  = HERMESLITE:BREAKOUT;
+TimeStamp = /551884B3;
+Reference = C93;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55188585;
+Reference = C94;
+ValeurCmp = 0.1uF;
+IdModule  = HERMESLITE:C_0805;
 EndCmp
 
 BeginCmp
@@ -775,6 +782,20 @@ TimeStamp = /54EB7363;
 Reference = D18;
 ValeurCmp = RED LED (PTT);
 IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55187AC8;
+Reference = D19;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /55186765;
+Reference = D20;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
 BeginCmp
@@ -1149,6 +1170,20 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /55184657;
+Reference = P7;
+ValeurCmp = Control from MegaBasic;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
+EndCmp
+
+BeginCmp
+TimeStamp = /5518950F;
+Reference = P8;
+ValeurCmp = F/R to Hermes Lite;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
 TimeStamp = /54C18950;
 Reference = Q1;
 ValeurCmp = FDV301;
@@ -1191,6 +1226,20 @@ IdModule  = HERMESLITE:R_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55188ADB;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55188B57;
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54A2D14A;
 Reference = R5;
 ValeurCmp = 6.8;
@@ -1205,9 +1254,44 @@ IdModule  = HERMESLITE:R_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55187A79;
+Reference = R7;
+ValeurCmp = 100 .37W;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551878FC;
+Reference = R8;
+ValeurCmp = 100 .37W;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551882A9;
+Reference = R9;
+ValeurCmp = 470;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5495ED31;
 Reference = R10;
 ValeurCmp = 270;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551877D1;
+Reference = R11;
+ValeurCmp = 470;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551865D3;
+Reference = R12;
+ValeurCmp = 100 .37W;
 IdModule  = HERMESLITE:R_0805;
 EndCmp
 
@@ -1275,6 +1359,13 @@ IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /55186488;
+Reference = R22;
+ValeurCmp = 100 .37W;
+IdModule  = HERMESLITE:R_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /547CE3F3;
 Reference = T1;
 ValeurCmp = TRANSFO;
@@ -1289,10 +1380,10 @@ IdModule  = HERMESLITE:OUT_TRANSF;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C1DCCB;
-Reference = U1;
-ValeurCmp = 4050;
-IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+TimeStamp = /55185E06;
+Reference = T3;
+ValeurCmp = F-R-XFMR;
+IdModule  = HERMESLITE:F_R_Transf;
 EndCmp
 
 BeginCmp
