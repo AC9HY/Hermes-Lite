@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 31/03/2015 09:21:40
+
+BeginCmp
+TimeStamp = /54B82D65;
+Reference = C1;
+ValeurCmp = 47uF 25V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AAA77;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ACFBF;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ACF21;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ACA07;
+Reference = C5;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ABCE9;
+Reference = C6;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ACA68;
+Reference = C7;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ABD48;
+Reference = C8;
+ValeurCmp = NFM21PC224R1C3D;
+IdModule  = SMDCAP:cfeed_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BA4EF4;
+Reference = L1;
+ValeurCmp = BLM21PG220SN1D;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551ACE78;
+Reference = L2;
+ValeurCmp = BLM21PG220SN1D;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AC0E2;
+Reference = P1;
+ValeurCmp = CN3 from HL;
+IdModule  = Socket_Strips:Socket_Strip_Angled_2x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B93508;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AC844;
+Reference = P3;
+ValeurCmp = CONN_01X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AAD48;
+Reference = P4;
+ValeurCmp = CONN_02X06;
+IdModule  = Socket_Strips:Socket_Strip_Angled_2x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AC3D3;
+Reference = U1;
+ValeurCmp = ADC78H90CIMT;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AA861;
+Reference = U2;
+ValeurCmp = Oki 5V Reg;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /551AB4F2;
+Reference = U3;
+ValeurCmp = Oki 3.3V Reg;
+IdModule  = Discret:LM78XXV;
+EndCmp
+
+EndListe
